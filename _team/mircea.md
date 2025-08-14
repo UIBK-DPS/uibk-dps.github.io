@@ -4,6 +4,7 @@ jobtitle: "IT system administrator"
 linkedinurl: "https://www.linkedin.com/"
 weight: 1
 admin: true
+image: "images/team/unknown.png"
 ---
 
 | ----------------  | --------- | 
