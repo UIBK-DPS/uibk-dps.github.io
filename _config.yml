@@ -32,9 +32,6 @@ collections:
     output: true
   projects:
     output: true
-  publications:
-    output: true
-    sort_by: weight
   thesis:
     output: true
     sort_by: weight
@@ -64,11 +61,6 @@ defaults:
       type: "projects"
     values:
       layout: "project"
-  - scope:
-      path: ""
-      type: "publications"
-    values:
-      layout: "research"
   - scope:
       path: ""
       type: "thesis"
