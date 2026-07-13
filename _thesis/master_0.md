@@ -1,6 +1,6 @@
 ---
 title: "Scalable and Adaptive Stream Processing Architectures"
-supervisor: "Thomas Fahringer, Abolfazl Younesi"
+supervisor: "Thomas Fahringer"
 weight: 1
 desired_skills: "Distributed Systems, Stream Processing, Cloud Deployment"
 master: true

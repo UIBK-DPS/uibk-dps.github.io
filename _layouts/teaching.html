@@ -88,21 +88,16 @@ bodyClass: "page-teams"
 
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
-    <h1>Courses</h1>
     <div class="row justify-content-start">
-      {% for course in site.courses %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{course.url | relative_url }}"  target="_blank">{{ course.title }}</a>
-            </h2>
-            <p>Instructor(s): {{course.instructors}}</p>
-            <p>{{ course.excerpt | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
+      <div class="col-12">
+        <h1>Courses</h1>
+        <a class="button button-primary"
+           href="https://lfuonline.uibk.ac.at/public/lfuonline_lv.home"
+           target="_blank"
+           rel="noreferrer">
+          Check our course catalogue in OLAT
+        </a>
       </div>
-      {% endfor %}
     </div>
   </div>
 </div>

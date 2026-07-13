@@ -9,23 +9,53 @@ bodyClass: "page-services"
     border: 1px solid var(--bs-border-color);
     background-color: var(--bs-body-bg);
   }
+
   .publication-card:hover {
-    transform: translateY(-2px); /* Subtle lift up */
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08) !important; /* Slightly richer shadow */
-    background-color: var(--bs-tertiary-bg); /* Subtle background shift */
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08) !important;
+    background-color: var(--bs-tertiary-bg);
   }
 </style>
 
-<div class="intro">
+
+<div class="intro mb-3" id="projects">
   <div class="container">
-    <div class="row justify-content-start w-100">
-      <div class="col-12 col-md-12 mb-12">
-        <h1 class="mb-3">Latest publications</h1>
+    <div class="row justify-content-start">
+      <div class="container pb-3">
 
-        {% assign matte_colors = "#5F9EA0,#CD5C5C,#8FBC8F,#DAA520,#778899,#BC8F8F" | split: "," %}
-        {% assign items_to_show = 10 %}
+        <!-- Current Research Projects -->
+        <div class="row">
+          <h1>Current research projects</h1>
 
-        {% for publication in site.data.publications %}
+          {% assign limit = site.home.limit_services | default: 6 %}
+          {% for project in site.projects limit: limit %}
+
+          <div class="col-12 col-md-4 mb-2">
+            <div class="service service-summary">
+              <div class="service-content">
+                <h2 class="service-title">
+                  <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+                </h2>
+
+                <p>
+                  {{ project.excerpt | markdownify | strip_html | truncate: 100 }}
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+        </div>
+
+
+        <!-- Latest Publications -->
+        <div class="row pt-3">
+          <h1 class="mb-3">Latest publications</h1>
+
+          {% assign matte_colors = "#5F9EA0,#CD5C5C,#8FBC8F,#DAA520,#778899,#BC8F8F" | split: "," %}
+          {% assign items_to_show = 10 %}
+
+          {% for publication in site.data.publications %}
 
             {% assign color_index = publication.year | modulo: matte_colors.size %}
             {% assign current_color = matte_colors[color_index] %}
@@ -35,31 +65,27 @@ bodyClass: "page-services"
               {% assign display_class = "d-none hidden-publication" %}
             {% endif %}
 
-            <!-- Keeps the tight mb-2 spacing between cards -->
-            <span class="d-block mb-2 publication-item {{ display_class }}">
+            <div class="col-12 mb-2 publication-item {{ display_class }}">
               <a href="{{ publication.link }}" target="_blank" class="text-decoration-none text-reset d-block">
 
-                <!-- Slightly increased padding (p-3 on desktop, p-2 on mobile), gap-3 for breathing room -->
                 <div class="publication-summary publication-card p-2 p-md-3 rounded d-flex flex-row gap-3 align-items-start">
 
-                  <!-- Year Badge: Slightly larger font (0.85rem) -->
-                  <span class="badge flex-shrink-0 mt-1" style="background-color: {{ current_color }} !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
+                  <span class="badge flex-shrink-0 mt-1"
+                    style="background-color: {{ current_color }} !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
                     {{ publication.year }}
                   </span>
 
-                  <!-- Expanded Content Container -->
                   <div class="flex-grow-1">
-                    <!-- Title: Explicit 1.05rem size for a readable but not overwhelming header -->
-                    <h5 class="mb-1 text-body-emphasis lh-sm" style="font-size: 1.05rem; font-weight: 600;">
+
+                    <h5 class="mb-1 text-body-emphasis lh-sm"
+                      style="font-size: 1.05rem; font-weight: 600;">
                       {{ publication.title | markdownify | strip_html }}
                     </h5>
 
-                    <!-- Authors: Increased to 0.9em -->
                     <p class="mb-1 text-muted" style="font-size: 0.9em;">
                       <em>{{ publication.all_authors | join: ", " }}</em>
                     </p>
 
-                    <!-- Metadata row: Increased to 0.85em -->
                     <div class="d-flex flex-wrap align-items-center gap-2" style="font-size: 0.85em;">
 
                       <span class="text-secondary fw-medium">
@@ -68,104 +94,59 @@ bodyClass: "page-services"
 
                       {% if publication.open_access %}
                         <span class="text-muted">|</span>
-                        <!-- Increased Open Access font size to 0.9em -->
-                        <span class="badge bg-success text-white px-2 py-1" style="font-size: 0.9em;">Open Access</span>
+                        <span class="badge bg-success text-white px-2 py-1"
+                          style="font-size: 0.9em;">
+                          Open Access
+                        </span>
                       {% endif %}
 
                     </div>
+
                   </div>
 
                 </div>
+
               </a>
-           </span>
-        {% endfor %}
+            </div>
 
-        {% if site.data.publications.size > items_to_show %}
-          <div class="text-center mt-4 mb-4">
-            <button id="showMoreBtn" class="button shadow-sm">Show More Publications</button>
+          {% endfor %}
+
+
+          {% if site.data.publications.size > items_to_show %}
+          <div class="text-center mt-3 mb-3">
+            <button id="showMoreBtn" class="button shadow-sm">
+              Show More Publications
+            </button>
           </div>
-        {% endif %}
+          {% endif %}
+
+        </div>
 
       </div>
     </div>
   </div>
 </div>
+
+
 <script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const showMoreBtn = document.getElementById("showMoreBtn");
-    const itemsPerClick = 10;
+document.addEventListener("DOMContentLoaded", function() {
+  const showMoreBtn = document.getElementById("showMoreBtn");
+  const itemsPerClick = 10;
 
-    if (showMoreBtn) {
-      showMoreBtn.addEventListener("click", function() {
-        const hiddenItems = document.querySelectorAll(".hidden-publication");
+  if (showMoreBtn) {
+    showMoreBtn.addEventListener("click", function() {
 
-        for (let i = 0; i < itemsPerClick && i < hiddenItems.length; i++) {
-          hiddenItems[i].classList.remove("d-none", "hidden-publication");
-        }
+      const hiddenItems = document.querySelectorAll(".hidden-publication");
 
-        if (document.querySelectorAll(".hidden-publication").length === 0) {
-          showMoreBtn.style.display = "none";
-        }
-      });
-    }
-  });
+      for (let i = 0; i < itemsPerClick && i < hiddenItems.length; i++) {
+        hiddenItems[i].classList.remove("d-none", "hidden-publication");
+      }
+
+      if (document.querySelectorAll(".hidden-publication").length === 0) {
+        showMoreBtn.style.display = "none";
+      }
+
+    });
+  }
+});
 </script>
-
-<div class="strip">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-          <h1>Ongoing research projects</h1>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip">
-  <div class="container pt-0 pb-0 pb-md-10">
-    <div class="row justify-content-start">
-      {% assign limit = site.home.limit_services | default: 6 %}
-      {% for project in site.projects limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{project.url | relative_url }}">{{ project.title }}</a>
-            </h2>
-            <p>{{ project.excerpt | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-<div class="strip">
-  <div class="container">
-    <div class="row justify-content-start">
-      <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-          <h1>Previous research projects (To be added soon)</h1>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div class="strip">
-  <div class="container pt-0 pb-0 pb-md-10">
-    <div class="row justify-content-start">
-      {% for project in site.old_projects limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
-        <div class="service service-summary">
-          <div class="service-content">
-            <h2 class="service-title">
-              <a href="{{project.url | relative_url }}">{{ project.title }}</a>
-            </h2>
-            <p>{{ project.excerpt | markdownify | strip_html | truncate: 100 }}</p>
-          </div>
-        </div>
-      </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>

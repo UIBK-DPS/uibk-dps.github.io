@@ -1,6 +1,6 @@
 ---
 title: "Serverless Architectures for Scalable Stream Processing"
-supervisor: "Thomas Fahringer, Abolfazl Younesi"
+supervisor: "Thomas Fahringer"
 weight: 1
 desired_skills: "Distributed Systems, Cloud Computing, Serverless Platforms"
 master: true
