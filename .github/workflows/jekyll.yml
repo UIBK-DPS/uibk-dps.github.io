@@ -60,15 +60,6 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
-      - name: Trigger webhook via curl
-        env:
-          WEBHOOK_URL: ${{ secrets.MY_WEBHOOK_URL }}
-        run: |
-          curl -v -X POST -H "Content-Type: application/json" \
-               -d '{"repository": "${{ github.repository }}", "status": "completed"}' \
-               $WEBHOOK_URL
-
-
   # Deployment job
   deploy:
     environment:
