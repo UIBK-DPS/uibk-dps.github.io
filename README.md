@@ -28,20 +28,21 @@ The website is automatically generated from Markdown files. After adding, editin
 
 ## Submitting Changes Through a Pull Request
 
-All modifications to the DPS website should be submitted through a GitHub Pull Request (PR). This allows changes to be reviewed before they are merged into the main branch and published on the website.
+All modifications to the DPS website should be submitted through a GitHub Pull Request (PR). Contributors should create a fork of the DPS website repository, apply their changes in their own fork, and submit a PR to the main repository. This allows changes to be reviewed before they are merged into the main branch and published on the website.
 
 Before creating a Pull Request, make sure that your changes are limited to the required content files and that the Markdown format has been preserved. Once the Pull Request is approved and merged, the website deployment pipeline will automatically rebuild the website and publish the updated content.
 
-1. Create a new branch for your changes: `git checkout -b update-website-content`
+1. Fork the DPS website repository on GitHub.
+2. Clone your fork locally: `git clone https://github.com/<your-username>/uibk-dps.github.io.git`
+3. Create a new branch for your changes: `git checkout -b update-website-content`
+4. Modify the required files.
+5. Review your changes: `git status`
+6. Add the modified files: `git add .`
+7. Commit your changes using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+8. Push your branch to your fork: `git push origin update-website-content`
+9. Open a Pull Request from your fork to the DPS website repository.
 
-2. Modify the required files.
-3. Review your changes: `git status`
-4. Add the modified files `git add .`
-5. Commit your changes using [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
-6. Push your branch to GitHub: `git push origin update-website-content`
-7. Open a Pull Request. 
-
-Your PR will be reviewed and merged as soon as possible by the DPS website admin team. 
+Your PR will be reviewed and merged as soon as possible by the DPS website admin team.
 
 ## 1. Updating Team Profiles
 
