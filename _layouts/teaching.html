@@ -3,48 +3,156 @@ layout: default
 bodyClass: "page-teams"
 ---
 
+<style>
+  .thesis-card {
+    transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, background-color 0.2s ease-out;
+    border: 1px solid var(--bs-border-color);
+    background-color: var(--bs-body-bg);
+  }
 
-<div class="intro">
+  .thesis-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08) !important;
+    background-color: var(--bs-tertiary-bg);
+  }
+</style>
+
+<div class="intro mb-3" id="theses">
   <div class="container">
     <div class="row justify-content-start">
+      <div class="container pb-3">
 
-        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-1">
-         
-          <h1 class="service-title">Bachelor thesis</h1>
-          
-          {% assign thesis = site.thesis | where: "master", false %}
-          {% for topic in thesis reversed limit: 20 %}
-          <div class="col-12 col-md-12 mb-2">
-            <div class="team team-summary team-summary-large" style="background-color:  rgba(33,85,152, 0.1)">
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a></h2>
-                    <p class="team-description">Supervisor(s): {{ topic.supervisor }}</p>
-                </div>
+        <!-- Page Header & Courses Section -->
+        <div class="row mb-5">
+          <div class="col-12">
+            <h1 class="mb-4">Theses and Courses</h1>
+            <div class="p-4 rounded border bg-light">
+              <h2 class="mb-2" style="font-size: 1.25rem;"><b>Courses</b></h2>
+              <p class="text-muted mb-3">Explore our active courses, lectures, and practical classes offered through the university portal, covering core topics such as <strong>Distributed Systems</strong>, <strong>Parallel Programming</strong>, and <strong>Advanced C++</strong>.</p>
+              <a class="button button-primary shadow-sm"
+                 href="https://lfuonline.uibk.ac.at/public/lfuonline_lv.home"
+                 target="_blank"
+                 rel="noreferrer">
+                Check our course catalogue in OLAT
+              </a>
             </div>
           </div>
-          {% endfor %}
-      </div>
-
-      <div class="col-12 col-md-5 col-lg-6 order-2 order-md-2 position-relative">
-        <h1 class="service-title">Master theses</h1>
-
-        {% assign thesis = site.thesis | where: "master", true %}
-        {% for topic in thesis reversed  limit: 20 %}
-        <div class="col-12 col-md-12 mb-2">
-          <div class="team team-summary team-summary-large" style="background-color: rgba(33,85,152, 0.3)">
-              <div class="team-meta">
-                  <h2 class="team-name"><a href="{{ topic.url | relative_url }}">{{ topic.title }}</a></h2>
-                  <p class="team-description">Supervisor(s): {{ topic.supervisor }}</p>
-              </div>
-          </div>
         </div>
-        {% endfor %}
-        
-       </div>
+
+        <!-- Theses Grid Section -->
+        <div class="row">
+
+          <!-- Bachelor Theses -->
+          <div class="col-12 col-lg-6 mb-4">
+            <h2 class="mb-3"><b>Bachelor theses</b></h2>
+
+            {% assign matte_colors_b = "#5F9EA0,#8FBC8F,#778899" | split: "," %}
+            {% assign items_to_show_b = 10 %}
+            {% assign thesis_b = site.thesis | where: "master", false %}
+
+            {% for topic in thesis_b reversed %}
+
+              {% assign color_index = forloop.index0 | modulo: matte_colors_b.size %}
+              {% assign current_color = matte_colors_b[color_index] %}
+
+              {% assign display_class = "" %}
+              {% if forloop.index > items_to_show_b %}
+                {% assign display_class = "d-none hidden-thesis-b" %}
+              {% endif %}
+
+              <div class="col-12 mb-2 thesis-item-b {{ display_class }}">
+                <a href="{{ topic.url | relative_url }}" class="text-decoration-none text-reset d-block">
+                  <div class="thesis-summary thesis-card p-2 p-md-3 rounded d-flex flex-row gap-3 align-items-start">
+
+                    <span class="badge flex-shrink-0 mt-1"
+                      style="background-color: {{ current_color }} !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
+                      BSc
+                    </span>
+
+                    <div class="flex-grow-1">
+                      <h5 class="mb-1 text-body-emphasis lh-sm" style="font-size: 1.05rem; font-weight: 600;">
+                        {{ topic.title }}
+                      </h5>
+
+                      <p class="mb-0 text-muted" style="font-size: 0.9em;">
+                        <em>Supervisor(s): {{ topic.supervisor }}</em>
+                      </p>
+                    </div>
+
+                  </div>
+                </a>
+              </div>
+
+            {% endfor %}
+
+            {% if thesis_b.size > items_to_show_b %}
+            <div class="text-center mt-3 mb-3">
+              <button id="showMoreBScBtn" class="button shadow-sm">
+                Show More Bachelor Theses
+              </button>
+            </div>
+            {% endif %}
+          </div>
+
+
+          <!-- Master Theses -->
+          <div class="col-12 col-lg-6 mb-4">
+            <h2 class="mb-3"><b>Master theses</b></h2>
+
+            {% assign matte_colors_m = "#CD5C5C,#DAA520,#BC8F8F" | split: "," %}
+            {% assign items_to_show_m = 10 %}
+            {% assign thesis_m = site.thesis | where: "master", true %}
+
+            {% for topic in thesis_m reversed %}
+
+              {% assign color_index = forloop.index0 | modulo: matte_colors_m.size %}
+              {% assign current_color = matte_colors_m[color_index] %}
+
+              {% assign display_class = "" %}
+              {% if forloop.index > items_to_show_m %}
+                {% assign display_class = "d-none hidden-thesis-m" %}
+              {% endif %}
+
+              <div class="col-12 mb-2 thesis-item-m {{ display_class }}">
+                <a href="{{ topic.url | relative_url }}" class="text-decoration-none text-reset d-block">
+                  <div class="thesis-summary thesis-card p-2 p-md-3 rounded d-flex flex-row gap-3 align-items-start">
+
+                    <span class="badge flex-shrink-0 mt-1"
+                      style="background-color: {{ current_color }} !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
+                      MSc
+                    </span>
+
+                    <div class="flex-grow-1">
+                      <h5 class="mb-1 text-body-emphasis lh-sm" style="font-size: 1.05rem; font-weight: 600;">
+                        {{ topic.title }}
+                      </h5>
+
+                      <p class="mb-0 text-muted" style="font-size: 0.9em;">
+                        <em>Supervisor(s): {{ topic.supervisor }}</em>
+                      </p>
+                    </div>
+
+                  </div>
+                </a>
+              </div>
+
+            {% endfor %}
+
+            {% if thesis_m.size > items_to_show_m %}
+            <div class="text-center mt-3 mb-3">
+              <button id="showMoreMScBtn" class="button shadow-sm">
+                Show More Master Theses
+              </button>
+            </div>
+            {% endif %}
+          </div>
+
+        </div>
+
+      </div>
     </div>
   </div>
 </div>
-
 
 <style>
   .strip-grey {
@@ -60,13 +168,13 @@ bodyClass: "page-teams"
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.85); /* Adjust transparency */
+    background: rgba(255, 255, 255, 0.85);
     z-index: 1;
   }
 
   .strip-grey .container {
     position: relative;
-    z-index: 2; /* Ensures text appears above background */
+    z-index: 2;
   }
 </style>
 
@@ -86,18 +194,37 @@ bodyClass: "page-teams"
   </div>
 </div>
 
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
-    <div class="row justify-content-start">
-      <div class="col-12">
-        <h1>Courses</h1>
-        <a class="button button-primary"
-           href="https://lfuonline.uibk.ac.at/public/lfuonline_lv.home"
-           target="_blank"
-           rel="noreferrer">
-          Check our course catalogue in OLAT
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const itemsPerClick = 10;
+
+  // Bachelor Theses Pagination
+  const showMoreBScBtn = document.getElementById("showMoreBScBtn");
+  if (showMoreBScBtn) {
+    showMoreBScBtn.addEventListener("click", function() {
+      const hiddenItems = document.querySelectorAll(".hidden-thesis-b");
+      for (let i = 0; i < itemsPerClick && i < hiddenItems.length; i++) {
+        hiddenItems[i].classList.remove("d-none", "hidden-thesis-b");
+      }
+      if (document.querySelectorAll(".hidden-thesis-b").length === 0) {
+        showMoreBScBtn.style.display = "none";
+      }
+    });
+  }
+
+  // Master Theses Pagination
+  const showMoreMScBtn = document.getElementById("showMoreMScBtn");
+  if (showMoreMScBtn) {
+    showMoreMScBtn.addEventListener("click", function() {
+      const hiddenItems = document.querySelectorAll(".hidden-thesis-m");
+      for (let i = 0; i < itemsPerClick && i < hiddenItems.length; i++) {
+        hiddenItems[i].classList.remove("d-none", "hidden-thesis-m");
+      }
+      if (document.querySelectorAll(".hidden-thesis-m").length === 0) {
+        showMoreMScBtn.style.display = "none";
+      }
+    });
+  }
+});
+</script>
