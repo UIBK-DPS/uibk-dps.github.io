@@ -3,7 +3,7 @@ title: "Dr. Stefan Pedratscher"
 date: 2018-11-19T10:47:58+10:00
 jobtitle: "Postdoctoral Univ. Assistant"
 linkedinurl: "https://www.linkedin.com/"
-weight: 3
+weight: 2
 admin: false
 image: "images/team/stefan.jpg"
 ---
