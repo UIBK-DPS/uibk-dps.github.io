@@ -60,6 +60,13 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
+      - name: Trigger webhook on dps server
+        uses: joelwmale/webhook-action@master
+        with:
+          url: ${{ secrets.MY_WEBHOOK_URL }}
+          headers: '{"Content-Type": "application/json"}'
+          body: '{"repository": "${{ github.repository }}", "status": "completed"}'
+
 
   # Deployment job
   deploy:
