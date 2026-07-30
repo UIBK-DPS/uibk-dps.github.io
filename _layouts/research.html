@@ -25,7 +25,7 @@ bodyClass: "page-services"
 
         <!-- Current Research Projects -->
         <div class="row">
-          <h1>Current research projects</h1>
+          <h1>Research projects and publications</h1>
 
           {% assign limit = site.home.limit_services | default: 6 %}
           {% for project in site.projects limit: limit %}
@@ -50,7 +50,7 @@ bodyClass: "page-services"
 
         <!-- Latest Publications -->
         <div class="row pt-3">
-          <h1 class="mb-3">Latest publications</h1>
+          <h2 class="mb-3"><b>Latest publications</b></h2>
 
           {% assign matte_colors = "#5F9EA0,#CD5C5C,#8FBC8F,#DAA520,#778899,#BC8F8F" | split: "," %}
           {% assign items_to_show = 10 %}
