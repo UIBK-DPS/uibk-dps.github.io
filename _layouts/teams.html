@@ -33,7 +33,7 @@ bodyClass: "page-teams"
                 <!-- Postdoctoral Univ. Assistants Section -->
                 <div class="row pt-3 pb-3">
                     <div class="col-12">
-                        <h2><b>Postdoctoral Univ. Assistants</b></h2>
+                        <h2><b>Senior Scientists and Postdoctoral Univ. Assistants</b></h2>
                     </div>
                     {% assign postdocs = site.team | where: "promoted", empty | where: "admin", false | where_exp: "item", "item.jobtitle == 'Senior Scientist' or item.jobtitle == 'Postdoctoral Univ. Assistant'" | sort: "weight" %}
                     {% for team in postdocs %}
