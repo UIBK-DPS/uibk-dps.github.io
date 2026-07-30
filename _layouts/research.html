@@ -27,6 +27,7 @@ bodyClass: "page-services"
         <div class="row">
           <h1>Research projects and publications</h1>
 
+          <h2 class="mb-3"><b>Research projects</b></h2>
           {% assign limit = site.home.limit_services | default: 6 %}
           {% for project in site.projects limit: limit %}
 
@@ -38,7 +39,7 @@ bodyClass: "page-services"
                 </h2>
 
                 <p>
-                  {{ project.excerpt | markdownify | strip_html | truncate: 100 }}
+                  {{ project.excerpt | markdownify | strip_html | truncate: 200 }}
                 </p>
               </div>
             </div>
