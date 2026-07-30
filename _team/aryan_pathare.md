@@ -1,5 +1,5 @@
 ---
-title: "Aryan Pathare"
+title: "M.Sc. Aryan Pathare"
 date: 2018-11-19T10:47:58+10:00
 jobtitle: "Ph.D. Student"
 linkedinurl: "https://www.linkedin.com/in/aryan-pathare-41962719b/"

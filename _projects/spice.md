@@ -9,6 +9,9 @@ The **SPICE project** addresses the growing scale and complexity of the Cloud, w
 
 <img src="/images/projects/spice.png" alt="SPICE Data Pipelines" width="300"/>
 
+**🌐 Project website:**  
+[https://spice-platform.eu/](https://spice-platform.eu/)
+
 # Objectives
 
 The SPICE project’s core mission is to **radically simplify** complex, distributed data processing and deliver a secure, trustworthy, and adaptable platform for **SMART data pipelines**.  

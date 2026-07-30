@@ -5,20 +5,32 @@ weight: 2
 ---
 
 
-# A Unified Programming Model for the Computing Continuum
+The **Collaborative State Machines (CSM) project** introduces a unified programming model for developing applications across the Cloud–Edge–IoT continuum. As distributed applications become increasingly complex, existing component-centric approaches often result in fragmented architectures, making coordination, state management, and global optimization difficult. CSM addresses these challenges by enabling developers to model an entire distributed system as a single coherent entity, providing system-wide visibility and simplifying orchestration across heterogeneous computing environments.
 
-CSM is a framework for developing applications that operate seamlessly across cloud, edge, and IoT environments. Unlike component-centric models that often lead to fragmented architectures, CSM allows you to model an entire distributed system as a single, coherent entity. By managing coordination and state at a global level, the model simplifies orchestration and maintains architectural integrity across your infrastructure.
+**🌐 Project website:**  
+[https://collaborativestatemachines.github.io/](https://collaborativestatemachines.github.io/)
 
-- Hierarchical System Design
-CSM uses hierarchical nesting to manage complex application logic. By representing the application as a unified tree rather than isolated black boxes, the entire system topology remains visible. This enables the runtime to perform system-wide optimizations that are impossible in traditional architectures.
-- Native Data Scoping
-Data management is integrated into the model through explicit scoping rules. CSM categorizes variables as persistent (global), transient (local to a machine), or static (local to a state). Aligning code structure with memory placement reduces network synchronization and improves data efficiency.
-- Decoupled Logic and Execution
-Maintain a clean separation between high-level coordination and task execution. State machines handle logic and state transitions, while heavy processing and hardware I/O are offloaded to external services. These interactions are managed via declarative Invoke actions, keeping dependencies explicit.
+# Objectives
 
-CSM provides the system-wide visibility required for advanced resource optimization. By exposing the full application topology, the model supports automated scheduling and intelligent data placement across the continuum.
+The CSM project’s core mission is to **simplify the development and management of distributed applications** by providing a programming model that integrates coordination, state management, and execution across the computing continuum.
 
-- CSML: A declarative DSL for specifying system behavior without the overhead of low-level communication boilerplate.
-- Cirrina: An open-source, Kotlin-based runtime designed to manage state machine lifecycles from edge devices to cloud clusters.
+Key objectives include:
 
-CSM website: https://collaborativestatemachines.github.io/
+1. **Unified system modeling** enabling developers to describe complete distributed applications as a single hierarchical model rather than as isolated components.  
+2. **Efficient state and data management** through explicit data scoping mechanisms that reduce unnecessary synchronization and improve data locality.  
+3. **Separation of coordination and execution logic** by combining high-level state management with external services responsible for computation and hardware interaction.  
+4. Providing a **runtime environment for continuum-scale applications** capable of managing distributed state machines from edge devices to cloud infrastructures.  
+
+## Relevance
+
+Modern cloud-edge-IoT applications require coordination among highly heterogeneous resources distributed across multiple administrative and geographical domains. Traditional programming approaches often expose developers to low-level communication mechanisms, fragmented application structures, and complex synchronization challenges.
+
+> CSM provides a **system-level programming abstraction** for designing, executing, and optimizing distributed applications across the computing continuum.
+
+The CSM ecosystem provides:
+- A **hierarchical programming model** that represents distributed applications as a unified system structure, enabling global reasoning and optimization.  
+- **Native data scoping mechanisms** for controlling data visibility and placement across global, local, and state-specific contexts.  
+- **CSML, a declarative domain-specific language** for specifying application behavior without requiring low-level communication management.  
+- **Cirrina, an open-source runtime environment** for managing state machine execution and coordination across edge and cloud infrastructures.  
+
+By combining system-wide visibility, explicit state management, and flexible execution models, CSM enables the development of scalable, adaptable, and efficient applications for the next generation of distributed computing systems.
