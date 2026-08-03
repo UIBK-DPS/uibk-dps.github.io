@@ -263,26 +263,6 @@
         ]
     },
     {
-        "title": "ADRL: A reconfigurable energy-efficient transmission policy for mobile LoRa devices based on reinforcement learning",
-        "year": 2025,
-        "citations": 4,
-        "link": "https://doi.org/10.1016/j.iot.2025.101577",
-        "venue": "Internet of Things",
-        "open_access": true,
-        "all_authors": [
-            "Laura Acosta-Garcia",
-            "Juan Aznar-Poveda",
-            "Antonio-Javier García-Sánchez",
-            "Jakob Hollenstein",
-            "Joan Garcı́a-Haro",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
-        ]
-    },
-    {
         "title": "STREAMLINE: Dynamic and Resource-Efficient Auto-Tuning of Stream Processing Data Pipeline Ensembles",
         "year": 2025,
         "citations": 4,
@@ -306,6 +286,26 @@
             "Juan Aznar-Poveda",
             "Marlon Etheredge",
             "Zahra Najafabadi-Samani"
+        ]
+    },
+    {
+        "title": "ADRL: A reconfigurable energy-efficient transmission policy for mobile LoRa devices based on reinforcement learning",
+        "year": 2025,
+        "citations": 4,
+        "link": "https://doi.org/10.1016/j.iot.2025.101577",
+        "venue": "Internet of Things",
+        "open_access": true,
+        "all_authors": [
+            "Laura Acosta-Garcia",
+            "Juan Aznar-Poveda",
+            "Antonio-Javier García-Sánchez",
+            "Jakob Hollenstein",
+            "Joan Garcı́a-Haro",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -405,6 +405,26 @@
         ]
     },
     {
+        "title": "Splitwise: Collaborative Edge–Cloud Inference for LLMs via Lyapunov-Assisted DRL",
+        "year": 2025,
+        "citations": 2,
+        "link": "https://doi.org/10.1145/3773274.3774267",
+        "venue": "arXiv (Cornell University)",
+        "open_access": true,
+        "all_authors": [
+            "Abolfazl Younesi",
+            "Abbas Shabrang Maryan",
+            "Elyas Oustad",
+            "Zahra Najafabadi Samani",
+            "Mohsen Ansari",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Zahra Najafabadi-Samani"
+        ]
+    },
+    {
         "title": "SmartKV: A cost-effective and low-latency geo-distributed key-value store for the computing continuum",
         "year": 2025,
         "citations": 2,
@@ -448,26 +468,6 @@
         "group_authors": [
             "Thomas Fahringer",
             "Juan Aznar-Poveda"
-        ]
-    },
-    {
-        "title": "Splitwise: Collaborative Edge–Cloud Inference for LLMs via Lyapunov-Assisted DRL",
-        "year": 2025,
-        "citations": 2,
-        "link": "https://doi.org/10.1145/3773274.3774267",
-        "venue": "arXiv (Cornell University)",
-        "open_access": true,
-        "all_authors": [
-            "Abolfazl Younesi",
-            "Abbas Shabrang Maryan",
-            "Elyas Oustad",
-            "Zahra Najafabadi Samani",
-            "Mohsen Ansari",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -971,26 +971,6 @@
         ]
     },
     {
-        "title": "Orchestration of Serverless Functions for Scalable Association Rule Mining with Apollo",
-        "year": 2024,
-        "citations": 1,
-        "link": "https://doi.org/10.36227/techrxiv.172101151.16682756/v1",
-        "venue": "arXiv",
-        "open_access": true,
-        "all_authors": [
-            "Mahtab Shahin",
-            "Nasim Janatian",
-            "Juan Aznar Poveda",
-            "Thomas Fahringer",
-            "Tara Ghasempouri",
-            "Syed Attique Shah",
-            "Dirk Draheim"
-        ],
-        "group_authors": [
-            "Thomas Fahringer"
-        ]
-    },
-    {
         "title": "Proactive Adaptation of Data Rate in Mobile LoRa-Based IoT Devices Using Machine Learning",
         "year": 2024,
         "citations": 1,
@@ -1023,6 +1003,26 @@
             "Tara Ghasempouri",
             "Juan Aznar Poveda",
             "Thomas Fahringer",
+            "Dirk Draheim"
+        ],
+        "group_authors": [
+            "Thomas Fahringer"
+        ]
+    },
+    {
+        "title": "Orchestration of Serverless Functions for Scalable Association Rule Mining with Apollo",
+        "year": 2024,
+        "citations": 1,
+        "link": "https://doi.org/10.36227/techrxiv.172101151.16682756/v1",
+        "venue": "arXiv",
+        "open_access": true,
+        "all_authors": [
+            "Mahtab Shahin",
+            "Nasim Janatian",
+            "Juan Aznar Poveda",
+            "Thomas Fahringer",
+            "Tara Ghasempouri",
+            "Syed Attique Shah",
             "Dirk Draheim"
         ],
         "group_authors": [
@@ -1476,22 +1476,6 @@
         ]
     },
     {
-        "title": "Command Horizons: Coalescing Data Dependencies While Maintaining Asynchronicity",
-        "year": 2023,
-        "citations": 1,
-        "link": "https://doi.org/10.1007/978-3-031-32316-4_2",
-        "venue": "Lecture notes in computer science",
-        "open_access": true,
-        "all_authors": [
-            "Peter Thoman",
-            "Philip Salzmann"
-        ],
-        "group_authors": [
-            "Peter Thoman",
-            "Philip Salzmann"
-        ]
-    },
-    {
         "title": "Domain-Specific Energy Modeling for Drug Discovery and Magnetohydrodynamics Applications",
         "year": 2023,
         "citations": 1,
@@ -1520,6 +1504,22 @@
         "group_authors": [
             "Peter Thoman",
             "Philipp Gschwandtner",
+            "Philip Salzmann"
+        ]
+    },
+    {
+        "title": "Command Horizons: Coalescing Data Dependencies While Maintaining Asynchronicity",
+        "year": 2023,
+        "citations": 1,
+        "link": "https://doi.org/10.1007/978-3-031-32316-4_2",
+        "venue": "Lecture notes in computer science",
+        "open_access": true,
+        "all_authors": [
+            "Peter Thoman",
+            "Philip Salzmann"
+        ],
+        "group_authors": [
+            "Peter Thoman",
             "Philip Salzmann"
         ]
     },
@@ -2108,7 +2108,7 @@
         "citations": 23,
         "link": "https://doi.org/10.1007/978-3-030-57675-2_39",
         "venue": "Lecture notes in computer science",
-        "open_access": true,
+        "open_access": false,
         "all_authors": [
             "Sohan Lal",
             "Aksel Alpay",
@@ -2320,7 +2320,7 @@
         "citations": 0,
         "link": "https://doi.org/10.31577/cai_2020_4_808",
         "venue": "Computing and Informatics",
-        "open_access": true,
+        "open_access": false,
         "all_authors": [
             "Philipp Gschwandtner",
             "Herbert Jordan",
