@@ -64,7 +64,7 @@ jobs:
         uses: joelwmale/webhook-action@master
         with:
           url: ${{ secrets.MY_WEBHOOK_URL }}
-          headers: '{"Content-Type": "application/json", "Authorization": "Bearer ${{ secrets.WEBHOOK_TOKEN }}"}'
+          headers: '{"Content-Type": "application/json", "X-Webhook-Token": "${{ secrets.WEBHOOK_TOKEN }}"}'
           body: '{"repository": "${{ github.repository }}", "status": "completed"}'
 
   # Deployment job
