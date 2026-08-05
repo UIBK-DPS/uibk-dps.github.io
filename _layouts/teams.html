@@ -76,35 +76,12 @@ bodyClass: "page-teams"
                     {% endfor %}
                 </div>
 
-                <!-- Master Students Section -->
-                <div class="row pt-3 pb-3">
-                    <div class="col-12">
-                        <h2><b>Master Students</b></h2>
-                    </div>
-                    {% assign master_students = site.team | where: "promoted", empty | where: "admin", false | where: "jobtitle", "Master student" | sort: "weight" %}
-                    {% for team in master_students %}
-                    <div class="col-12 col-md-6 mb-3">
-                        <div class="team team-summary">
-                            {% if team.image %}
-                            <div class="team-image">
-                                <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
-                            </div>
-                            {% endif %}
-                            <div class="team-meta">
-                                <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
-                                <p class="team-description">{{ team.jobtitle }}</p>
-                            </div>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-
                 <!-- Bachelor Students Section -->
                 <div class="row pt-3 pb-3">
                     <div class="col-12">
-                        <h2><b>Bachelor Students</b></h2>
+                        <h2><b>Student Research Assistants</b></h2>
                     </div>
-                    {% assign bachelor_students = site.team | where: "promoted", empty | where: "admin", false | where: "jobtitle", "Bachelor student" | sort: "weight" %}
+                    {% assign bachelor_students = site.team | where: "promoted", empty | where: "admin", false | where: "jobtitle", "Student assistant" | sort: "weight" %}
                     {% for team in bachelor_students %}
                     <div class="col-12 col-md-6 mb-3">
                         <div class="team team-summary">

@@ -1,6 +1,6 @@
 [
   {
-    "title": "Cloud-Edge Computing",
+    "title": "Cloud-Edge-IoT Computing",
     "description": "Design of novel distributed systems across the Computing continuum",
     "image": {
       "url": "images/features/noun_branding_1885335.svg",
@@ -9,7 +9,7 @@
     }
   },
   {
-    "title": "HPC",
+    "title": "High Performance Computing (HPC)",
     "description": "Drives innovation across science, industry, and technology.",
     "image": {
       "url": "images/features/noun_3d modeling_1885342.svg",

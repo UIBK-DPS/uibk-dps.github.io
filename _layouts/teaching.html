@@ -46,14 +46,10 @@ bodyClass: "page-teams"
           <div class="col-12 col-lg-6 mb-4">
             <h2 class="mb-3"><b>Bachelor theses</b></h2>
 
-            {% assign matte_colors_b = "#5F9EA0,#8FBC8F,#778899" | split: "," %}
             {% assign items_to_show_b = 10 %}
             {% assign thesis_b = site.thesis | where: "master", false %}
 
             {% for topic in thesis_b reversed %}
-
-              {% assign color_index = forloop.index0 | modulo: matte_colors_b.size %}
-              {% assign current_color = matte_colors_b[color_index] %}
 
               {% assign display_class = "" %}
               {% if forloop.index > items_to_show_b %}
@@ -65,7 +61,7 @@ bodyClass: "page-teams"
                   <div class="thesis-summary thesis-card p-2 p-md-3 rounded d-flex flex-row gap-3 align-items-start">
 
                     <span class="badge flex-shrink-0 mt-1"
-                      style="background-color: {{ current_color }} !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
+                      style="background-color: #5b92e5 !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
                       BSc
                     </span>
 
@@ -99,14 +95,10 @@ bodyClass: "page-teams"
           <div class="col-12 col-lg-6 mb-4">
             <h2 class="mb-3"><b>Master theses</b></h2>
 
-            {% assign matte_colors_m = "#CD5C5C,#DAA520,#BC8F8F" | split: "," %}
             {% assign items_to_show_m = 10 %}
             {% assign thesis_m = site.thesis | where: "master", true %}
 
             {% for topic in thesis_m reversed %}
-
-              {% assign color_index = forloop.index0 | modulo: matte_colors_m.size %}
-              {% assign current_color = matte_colors_m[color_index] %}
 
               {% assign display_class = "" %}
               {% if forloop.index > items_to_show_m %}
@@ -118,7 +110,7 @@ bodyClass: "page-teams"
                   <div class="thesis-summary thesis-card p-2 p-md-3 rounded d-flex flex-row gap-3 align-items-start">
 
                     <span class="badge flex-shrink-0 mt-1"
-                      style="background-color: {{ current_color }} !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
+                      style="background-color: #215598 !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
                       MSc
                     </span>
 
@@ -157,7 +149,7 @@ bodyClass: "page-teams"
 <style>
   .strip-grey {
     position: relative;
-    background: url('{{site.url}}/images/illustrations/hpc.jpeg') no-repeat center center;
+    background: url('{{site.url}}/images/illustrations/background.jpg') no-repeat center center;
     background-size: cover;
   }
 
