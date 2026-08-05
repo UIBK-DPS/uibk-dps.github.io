@@ -2,7 +2,7 @@
 title: "Dr. Juan Aznar-Poveda"
 date: 2018-11-19T10:47:58+10:00
 jobtitle: "Postdoctoral Univ. Assistant"
-linkedinurl: "https://www.linkedin.com/"
+linkedinurl: "https://www.linkedin.com/in/juanaznar"
 scholarurl: "https://scholar.google.com/citations?user=WI4odrUAAAAJ&hl=en"
 orcidurl: "https://orcid.org/0000-0002-0879-6651"
 weight: 2
