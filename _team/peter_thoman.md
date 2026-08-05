@@ -6,6 +6,13 @@ image: "images/team/peter.png"
 promoted: true
 weight: 2
 admin: false
+room: "2W05"
+office_hours: "To be arranged"
+email: "peter.thoman@uibk.ac.at"
+phone: ""
+linkedinurl: ""
+scholarurl: "https://scholar.google.at/citations?user=BvDZBnMAAAAJ&hl=en"
+orcidurl: "https://orcid.org/0000-0002-4028-7451"
 ---
 
 Peter is an associate professor with the Distributed and Parallel Systems,
@@ -19,9 +26,3 @@ transparent full-stack data compression in GPU cluster computing.
 Peter’s research interests include API and runtime system design for
 parallelism, accelerator computing, fine-grained task parallelism, and
 compiler-supported optimizations.
-
-| ----------------  | --------- |
-| Room              | 2W05      |
-| Office hours      | To be arranged |
-| Email             | [peter.thoman@uibk.ac.at](mailto:peter.thoman@uibk.ac.at)| 
-| [Personal website](https://dps.uibk.ac.at/~petert/), [Google Scholar](https://scholar.google.at/citations?user=BvDZBnMAAAAJ&hl=en), [ORCID](https://orcid.org/0000-0002-4028-7451) | 

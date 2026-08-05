@@ -3,15 +3,11 @@ layout: default
 bodyClass: "page-home"
 ---
 
-
 <div class="intro">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
-        {% if page.show_call_box %}
-          {% include call.html show_button=true %}
-        {% endif %}
       </div>
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
         <img id="introImage"
@@ -42,13 +38,19 @@ bodyClass: "page-home"
   });
 </script>
 
-
 <div class="strip">
   <div class="container pt-6 pb-6 pb-md-10">
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
+      {% assign project_count = site.projects | size %}
+      {% if project_count < 4 %}
+        {% assign col_class = "col-12 col-md" %}
+      {% else %}
+        {% assign col_class = "col-12 col-md-6 col-lg-3" %}
+      {% endif %}
+
       {% for project in site.projects limit: limit %}
-      <div class="col-12 col-md-4 mb-1">
+      <div class="{{ col_class }} mb-1">
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
@@ -60,9 +62,12 @@ bodyClass: "page-home"
       </div>
       {% endfor %}
     </div>
-    <div class="row justify-content-center">
-      <div class="col-auto">
-        <a class="button button-primary" href="{{ "research#projects" | relative_url }}">View all research projects</a>
+
+    <!-- Separator Line with Centered Button -->
+    <div class="position-relative my-5">
+      <hr class="text-muted" />
+      <div class="position-absolute top-50 start-50 translate-middle px-3 bg-white">
+        <a class="button button-primary" href="{{ "research#projects" | relative_url }}">Explore All Projects</a>
       </div>
     </div>
   </div>

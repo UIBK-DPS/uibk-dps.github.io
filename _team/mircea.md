@@ -1,13 +1,12 @@
 ---
 title: "Mircea Munteanu"
 jobtitle: "IT system administrator"
-linkedinurl: "https://www.linkedin.com/"
+linkedinurl: ""
 weight: 1
 admin: true
 image: "images/team/unknown.png"
+room: "3M05"
+office_hours: ""
+email: "mircea@dps.uibk.ac.at"
+phone: "+43 512 507 53224"
 ---
-
-| ----------------  | --------- | 
-| Room              | 3M05      | 
-| Email             | [mircea@dps.uibk.ac.at](mailto:mircea@dps.uibk.ac.at)| 
-| Phone             | +43 512 507 53224 | 

@@ -1,18 +1,15 @@
 ---
 title: "Leon Kiss"
-date: 2018-11-19T10:47:58+10:00
-jobtitle: "Student assistant"
-linkedinurl: "https://www.linkedin.com/"
+jobtitle: "Research assistant"
+linkedinurl: "https://www.linkedin.com/in/leon-kiss-b7928a11a/"
 weight: 2
 admin: false
 image: "images/team/leon-kiss.jpg"
+room: "3M04"
+office_hours: "To be arranged"
+email: "leon.kiss@uibk.ac.at"
+scholarurl: "https://scholar.google.com/citations?user=TrHVQeEAAAAJ&hl=de&oi=ao"
+orcidurl: "https://orcid.org/0009-0003-7103-6430"
 ---
 
-Juan received his Ph.D. degree in Telecommunications Engineering from the Technical University of Cartagena, Spain, in 2022. He was awarded the prize “Liberalization of Telecommunications” (national level) for the best B.Sc. thesis in 2016. He is currently a postdoctoral researcher at the Distributed and Parallel Systems group of the University of Innsbruck, Austria. His research interests include Distributed Systems, Distributed Storages, Distributed Machine learning, Cyber-Physical Systems (CPS), Internet of Things, and Wireless networks and communications.
-
-| ----------------  | --------- | 
-| Room              | 3M04      | 
-| Office hours      | To be arranged |
-| Email             | [leon.kiss@uibk.ac.at](mailto:leon.kiss@uibk.ac.at)| 
-| Phone             | +43 512 507 53361 | 
-| [Google Scholar](), [ORCID]() | 
+Leon is an undergraduate researcher pursuing his Bachelor's degree in Computer Science at the University of Innsbruck in Austria. He currently works as a student assistant at the research group for Distributed and Parallel Systems. His research focuses on distributed systems, bridging the gap between theoretical optimization and practical infrastructure engineering. He specializes in edge-cloud computing, decentralized container scheduling, and federated learning, with a current emphasis on designing multi-objective, market-based scheduling architectures for heterogeneous clusters.
