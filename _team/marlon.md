@@ -1,4 +1,5 @@
 ---
+title: "M.Sc. Marlon Etheredge"
 jobtitle: "Ph.D. student"
 linkedinurl: "https://www.linkedin.com/in/marlonetheredge/"
 scholarurl: "https://scholar.google.com/citations?user=yhF1mZUAAAAJ&hl=en"
