@@ -56,16 +56,28 @@ To update your profile:
 2. Modify only the content.
 3. Keep the existing structure and metadata fields unchanged.
 
+> **Allowed Job Titles / Positions:** "Postdoctoral Univ. Assistant", "Ph.D. student", "Research assistant", "Full Professor", "Associate Professor"
+
 Example:
 
 ```markdown
 ---
-name: "Your Name"
-position: "PhD Student"
-email: "your.email@uibk.ac.at"
+title: "Dr. Max Mustermann"
+date: 2018-11-19T10:47:58+10:00
+jobtitle: "Postdoctoral Univ. Assistant"
+linkedinurl: "https://www.linkedin.com/"
+scholarurl: "https://scholar.google.com/"
+orcidurl: "https://orcid.org/0000-0000-0000-0000"
+weight: 2
+admin: false
+image: "images/team/max.jpg"
+room: "3M04"
+office_hours: "To be arranged"
+email: "max.mustermann@uibk.ac.at"
+phone: "+43 512 507 00000"
 ---
 
-Your profile description goes here.
+Max received his Ph.D. degree in Computer Science from the University of Innsbruck, Austria, in 2022. He was awarded the prize “Example Prize” (national level) for the best B.Sc. thesis in 2016. He is currently a postdoctoral researcher at the Distributed and Parallel Systems group of the University of Innsbruck, Austria. His research interests include Distributed Systems, Distributed Storages, Distributed Machine learning, Cyber-Physical Systems (CPS), Internet of Things, and Wireless networks and communications.
 ```
 
 Profile pictures are located in: `images/team/` folder.
