@@ -65,7 +65,7 @@ jobs:
         with:
           url: ${{ secrets.MY_WEBHOOK_URL }}
           headers: '{"Content-Type": "application/json", "X-Webhook-Token": "${{ secrets.WEBHOOK_TOKEN }}"}'
-          body: '{"ref": "${{ github.ref }}", "repository": {"name": "${{ github.repository.name }}", "clone_url": "${{ github.server_url }}/${{ github.repository_owner }}"} }'
+          body: '{"ref": "${{ github.ref }}", "repository": {"name": "${{ github.repository }}", "clone_url": "${{ github.server_url }}/${{ github.repository_owner }}"} }'
 
   # Deployment job
   deploy:
