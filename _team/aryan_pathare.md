@@ -12,4 +12,4 @@ email: "aryan.pathare@uibk.ac.at"
 phone: ""
 ---
 
-Aryan description to be added.
+Aryan Pathare received his M.S in Computer Science from the University of Arizona in 2025. He is currently pursuing his PhD with the Distributed and Parallel Systems Group at the University of Innsbruck, Austria. He has previous experience with software development and his research interests lie in fault-tolerant, resilient and secure distributed systems.
