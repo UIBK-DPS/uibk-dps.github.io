@@ -4,7 +4,7 @@ jobtitle: "Research assistant"
 linkedinurl: "https://www.linkedin.com/in/alexander-zangerle-0488b6318/"
 weight: 2
 admin: false
-image: "images/team/unknown.png"
+image: "images/team/alexander_zangerle.jpg"
 room: "3M01"
 office_hours: "To be arranged"
 email: "alexander.zangerle@uibk.ac.at"
