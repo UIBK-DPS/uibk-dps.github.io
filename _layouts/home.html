@@ -39,7 +39,30 @@ bodyClass: "page-home"
 </script>
 
 <div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
+  <div class="container pt-4 pb-12">
+    <div class="container-fluid px-0">
+      <!-- Mission Section (Full Width) -->
+      <div class="pt-0 pb-6 mb-12">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-12">
+              <div class="mission-section text-center text-md-start">
+                <h2 class="mb-4 font-weight-bold">Our Mission</h2>
+                <p align="justify" class="lead mb-1">
+                  The <b>Distributed and Parallel Systems (DPS) Group</b> develops programming models, runtime systems, and technologies that make complex computing <b>simple, seamless, and adaptive</b>. We study distributed, parallel, heterogeneous, and dynamic systems spanning the <b>IoT–Edge–Cloud and high-performance computing continuum</b>, with a focus on programmability, automation, scalability, performance, and resilience.
+                </p>
+                <p align="justify" class="lead mb-1">
+                  Our research enables applications to seamlessly harness computing, data, and services across this continuum, while abstracting away its underlying complexity. We develop intelligent and adaptive mechanisms for programming, coordinating, orchestrating, and optimizing distributed computations and data processing.
+                <p align="justify" class="lead mb-3">
+                  Our goal is to enable <b>faster, better, and fundamentally new ways of computing and doing science</b>—supporting data- and computation-intensive, collaborative, and multidisciplinary applications at scale.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
     <div class="row justify-content-start">
       {% assign limit = site.home.limit_services | default: 6 %}
       {% assign project_count = site.projects | size %}
