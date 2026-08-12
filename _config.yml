@@ -9,9 +9,9 @@ logo:
   mobile: "images/logo/.png"
   mobile_height: "40px"
   mobile_width: "40px"
-  desktop: "images/logo/dpslogo.png"
-  desktop_height: "40px"
-  desktop_width: "130px"
+  desktop: "images/logo/dpslogo.svg"
+  desktop_height: "45px"
+  desktop_width: "129px"
 
 uibklogo:
   mobile: "images/logo/uibklogo.png"
