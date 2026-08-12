@@ -6,7 +6,7 @@ permalink: pretty
 title: 'DPS'
 
 logo:
-  mobile: "images/logo/.png"
+  mobile: "images/logo/dpslogo.svg"
   mobile_height: "40px"
   mobile_width: "40px"
   desktop: "images/logo/dpslogo.svg"
