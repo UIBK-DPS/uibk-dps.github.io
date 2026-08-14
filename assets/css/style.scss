@@ -34,12 +34,10 @@ $sub-footer-text-color: $white;
 }
 
 .project-icon {
-  height: 1.5em;
-  width: 1.5em;
-  max-width: 1.5em;
-  max-height: 1.5em;
+  width: 28px;
+  height: 28px;
   object-fit: contain;
-  margin-right: 0.2em;
+  margin-right: 8px;
   flex-shrink: 0;
 }
 
