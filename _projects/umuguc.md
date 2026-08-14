@@ -1,6 +1,7 @@
 ---
 title: "UMUGUC"
 date: 2026-08-12T12:00:00+02:00
+icon: "/images/projects/icons/umuguc.png"
 weight: 4
 ---
 

@@ -33,6 +33,16 @@ $sub-footer-text-color: $white;
   padding: 100px 100px
 }
 
+.project-icon {
+  height: 1.5em;
+  width: 1.5em;
+  max-width: 1.5em;
+  max-height: 1.5em;
+  object-fit: contain;
+  margin-right: 0.2em;
+  flex-shrink: 0;
+}
+
 .custom-badge-iot {
   background-color: #ffe491; /* Bootstrap warning color */
   color: #333; /* Dark text for contrast */

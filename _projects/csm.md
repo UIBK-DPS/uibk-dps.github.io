@@ -1,6 +1,7 @@
 ---
 title: "CSM"
 date: 2018-11-18T12:33:46+10:00
+icon: "/images/projects/icons/csm.png"
 weight: 2
 ---
 

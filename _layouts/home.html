@@ -77,7 +77,16 @@ bodyClass: "page-home"
         <div class="service service-summary">
           <div class="service-content">
             <h2 class="service-title">
-              <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+              <a href="{{ project.url | relative_url }}" class="d-inline-flex align-items-center">
+                {% if project.icon %}
+                  <img
+                    src="{{ project.icon | relative_url }}"
+                    alt=""
+                    class="project-icon"
+                  >
+                {% endif %}
+                <span>{{ project.title }}</span>
+              </a>
             </h2>
             <p>{{ project.excerpt | markdownify | strip_html | truncate: 100 }}</p>
           </div>

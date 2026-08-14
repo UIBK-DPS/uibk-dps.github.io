@@ -1,6 +1,7 @@
 ---
 title: "Celerity"
 date: 2026-08-12T12:00:00+02:00
+icon: "/images/projects/icons/celerity.png"
 weight: 3
 ---
 
