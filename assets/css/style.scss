@@ -41,6 +41,19 @@ $sub-footer-text-color: $white;
   flex-shrink: 0;
 }
 
+.page-home .service-summary .service-title .project-icon,
+.page-services .service-summary .service-title .project-icon {
+  width: 24px !important;
+  height: 24px !important;
+  max-width: 24px !important;
+  max-height: 24px !important;
+  min-width: 24px;
+  min-height: 24px;
+  object-fit: contain;
+  margin-right: 8px;
+  flex-shrink: 0;
+}
+
 .custom-badge-iot {
   background-color: #ffe491; /* Bootstrap warning color */
   color: #333; /* Dark text for contrast */
