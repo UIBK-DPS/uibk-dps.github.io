@@ -56,28 +56,38 @@ bodyClass: "page-teams"
                 {% assign display_class = "d-none hidden-thesis-b" %}
               {% endif %}
 
-              <div class="col-12 mb-2 thesis-item-b {{ display_class }}">
-                <a href="{{ topic.url | relative_url }}" class="text-decoration-none text-reset d-block">
-                  <div class="thesis-summary thesis-card p-2 p-md-3 rounded d-flex flex-row gap-3 align-items-start">
+            <div class="col-12 mb-2 thesis-item-b {{ display_class }}">
+              <a href="{{ topic.url | relative_url }}" class="text-decoration-none text-reset d-block">
+                <div class="thesis-summary thesis-card p-2 p-md-3 rounded d-flex flex-row gap-3 align-items-start">
 
-                    <span class="badge flex-shrink-0 mt-1"
+                  <!-- Badge Container (Stacked vertically: BSc on top, NEW below) -->
+                  <div class="flex-shrink-0 mt-1 d-flex flex-column gap-1 align-items-center" style="min-width: 45px;">
+                    <span class="badge"
                       style="background-color: #5b92e5 !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
                       BSc
                     </span>
 
-                    <div class="flex-grow-1">
-                      <h5 class="mb-1 text-body-emphasis lh-sm" style="font-size: 1.05rem; font-weight: 600;">
-                        {{ topic.title }}
-                      </h5>
-
-                      <p class="mb-0 text-muted" style="font-size: 0.9em;">
-                        <em>Supervisor(s): {{ topic.supervisor }}</em>
-                      </p>
-                    </div>
-
+                    {% if topic.new == true %}
+                      <span class="badge"
+                        style="background-color: #28a745 !important; color: white !important; font-size: 0.65rem; padding: 0.25em 0.5em; border-radius: 6px; letter-spacing: 0.5px;">
+                        NEW
+                      </span>
+                    {% endif %}
                   </div>
-                </a>
-              </div>
+
+                  <div class="flex-grow-1">
+                    <h5 class="mb-1 text-body-emphasis lh-sm" style="font-size: 1.05rem; font-weight: 600;">
+                      {{ topic.title }}
+                    </h5>
+
+                    <p class="mb-0 text-muted" style="font-size: 0.9em;">
+                      <em>Supervisor(s): {{ topic.supervisor }}</em>
+                    </p>
+                  </div>
+
+                </div>
+              </a>
+            </div>
 
             {% endfor %}
 
@@ -109,10 +119,20 @@ bodyClass: "page-teams"
                 <a href="{{ topic.url | relative_url }}" class="text-decoration-none text-reset d-block">
                   <div class="thesis-summary thesis-card p-2 p-md-3 rounded d-flex flex-row gap-3 align-items-start">
 
-                    <span class="badge flex-shrink-0 mt-1"
-                      style="background-color: #215598 !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
-                      MSc
-                    </span>
+                    <!-- Badge Container (Stacked vertically: MSc on top, NEW below) -->
+                    <div class="flex-shrink-0 mt-1 d-flex flex-column gap-1 align-items-center" style="min-width: 45px;">
+                      <span class="badge"
+                        style="background-color: #215598 !important; color: white !important; font-size: 0.85rem; padding: 0.4em 0.7em; border-radius: 8px;">
+                        MSc
+                      </span>
+
+                      {% if topic.new == true %}
+                        <span class="badge"
+                          style="background-color: #28a745 !important; color: white !important; font-size: 0.65rem; padding: 0.25em 0.5em; border-radius: 6px; letter-spacing: 0.5px;">
+                          NEW
+                        </span>
+                      {% endif %}
+                    </div>
 
                     <div class="flex-grow-1">
                       <h5 class="mb-1 text-body-emphasis lh-sm" style="font-size: 1.05rem; font-weight: 600;">
