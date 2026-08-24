@@ -65,7 +65,7 @@
         ]
     },
     {
-        "title": "SPICE Project: Smart Data Pipelines for CognItive ComputE Continuum",
+        "title": "SPICE Project: Smart Data Pipelines for CognItive ComputE Continuum",
         "year": 2026,
         "citations": 0,
         "link": "https://doi.org/10.1007/978-3-032-23335-6_23",
@@ -118,7 +118,7 @@
         ]
     },
     {
-        "title": "Data Management and I/O Provisioning Across Cloud-Edge Continuum for High-Performance Computational Data Pipelines",
+        "title": "Data Management and I/O Provisioning Across Cloud-Edge Continuum for High-Performance Computational Data Pipelines",
         "year": 2026,
         "citations": 0,
         "link": "https://doi.org/10.1007/978-3-032-29912-3_42",
@@ -127,33 +127,6 @@
         "all_authors": [
             "Bartosz Kryza",
             "Renata Słota",
-            "Łukasz Dutka",
-            "Jacek Kitowski",
-            "Juan Aznar-Poveda",
-            "Thomas Fahringer",
-            "Ines Ortega-Fernandez",
-            "Iago Abad",
-            "Štefan Dlugolinský",
-            "Martin Bobák",
-            "Ladislav Hluchý",
-            "Igor Skrlec",
-            "Peter Kišša"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
-        ]
-    },
-    {
-        "title": "Data Management and I/O Provisioning Across Cloud-Edge Continuum for High-performance Computational Data Pipelines",
-        "year": 2026,
-        "citations": 0,
-        "link": "https://doi.org/10.5281/zenodo.21140144",
-        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-        "open_access": true,
-        "all_authors": [
-            "Bartosz Kryza",
-            "Renata Slota",
             "Łukasz Dutka",
             "Jacek Kitowski",
             "Juan Aznar-Poveda",
@@ -190,7 +163,7 @@
         ]
     },
     {
-        "title": "Evaluating the Parallelization Capabilities of State-of-the-Art Agentic Large Language Models",
+        "title": "Evaluating the Parallelization Capabilities of State-of-the-Art Agentic Large Language Models",
         "year": 2026,
         "citations": 0,
         "link": "https://doi.org/10.1007/978-3-032-35248-4_2",
@@ -247,6 +220,26 @@
         ]
     },
     {
+        "title": "The Ranked Analysis of Major Programs System (RAMPS)",
+        "year": 2026,
+        "citations": 0,
+        "link": "https://doi.org/10.18260/1-2--60502",
+        "venue": "2026 ASEE Annual Conference &amp; Exposition Proceedings",
+        "open_access": false,
+        "all_authors": [
+            "Melika Akbarsharifi",
+            "Gregory L. Heileman",
+            "Roxana Akbarsharifi",
+            "Kian Alavy",
+            "Aryan Pathare",
+            "Kristina Manasil",
+            "Mahshad Akbarsharifi"
+        ],
+        "group_authors": [
+            "Aryan Pathare"
+        ]
+    },
+    {
         "title": "A terminology for scientific workflow systems",
         "year": 2025,
         "citations": 15,
@@ -288,7 +281,7 @@
     {
         "title": "HealthCare 5.0: An industry 5.0 perspective for next-generation medical systems with synergistic integration of IoT, AI, and 6G",
         "year": 2025,
-        "citations": 9,
+        "citations": 10,
         "link": "https://doi.org/10.1016/j.iot.2025.101815",
         "venue": "Internet of Things",
         "open_access": true,
@@ -326,7 +319,7 @@
     {
         "title": "ADRL: A reconfigurable energy-efficient transmission policy for mobile LoRa devices based on reinforcement learning",
         "year": 2025,
-        "citations": 5,
+        "citations": 6,
         "link": "https://doi.org/10.1016/j.iot.2025.101577",
         "venue": "Internet of Things",
         "open_access": true,
@@ -445,27 +438,6 @@
         ]
     },
     {
-        "title": "ScaleIP: A hybrid autoscaling of VoIP services based on deep reinforcement learning",
-        "year": 2025,
-        "citations": 2,
-        "link": "https://doi.org/10.1016/j.comcom.2025.108314",
-        "venue": "Computer Communications",
-        "open_access": true,
-        "all_authors": [
-            "Zahra Najafabadi Samani",
-            "Juan Aznar-Poveda",
-            "Dominik Grätz",
-            "Rene Hueber",
-            "Philipp Kalb",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda",
-            "Zahra Najafabadi-Samani"
-        ]
-    },
-    {
         "title": "SmartKV: A cost-effective and low-latency geo-distributed key-value store for the computing continuum",
         "year": 2025,
         "citations": 2,
@@ -509,6 +481,27 @@
         "group_authors": [
             "Thomas Fahringer",
             "Juan Aznar-Poveda"
+        ]
+    },
+    {
+        "title": "ScaleIP: A hybrid autoscaling of VoIP services based on deep reinforcement learning",
+        "year": 2025,
+        "citations": 2,
+        "link": "https://doi.org/10.1016/j.comcom.2025.108314",
+        "venue": "Computer Communications",
+        "open_access": true,
+        "all_authors": [
+            "Zahra Najafabadi Samani",
+            "Juan Aznar-Poveda",
+            "Dominik Grätz",
+            "Rene Hueber",
+            "Philipp Kalb",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda",
+            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -587,27 +580,6 @@
         ]
     },
     {
-        "title": "Dynamic Resource Manager for Automating Deployments in the Computing Continuum",
-        "year": 2025,
-        "citations": 0,
-        "link": "https://doi.org/10.1007/978-3-031-90200-0_23",
-        "venue": "Lecture notes in computer science",
-        "open_access": false,
-        "all_authors": [
-            "Zahra Najafabadi Samani",
-            "Matthias Ga",
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda",
-            "Stefan Pedratscher"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Stefan Pedratscher",
-            "Juan Aznar-Poveda",
-            "Zahra Najafabadi-Samani"
-        ]
-    },
-    {
         "title": "A High-Level API for Dynamic Load Balancing in Large-Scale Parameter Sweeps",
         "year": 2025,
         "citations": 0,
@@ -644,28 +616,6 @@
             "Stefan Pedratscher",
             "Juan Aznar-Poveda",
             "Marlon Etheredge"
-        ]
-    },
-    {
-        "title": "Meteorological Insights: Scalable Weather Pattern Mining in Tallinn and Tartu",
-        "year": 2025,
-        "citations": 0,
-        "link": "https://doi.org/10.1007/978-981-96-6938-7_21",
-        "venue": "Lecture notes in networks and systems",
-        "open_access": false,
-        "all_authors": [
-            "Mahtab Shahin",
-            "Tara Ghasempouri",
-            "Saeed Rahimpour",
-            "Juan Aznar-Poveda",
-            "Nasime Janatian",
-            "Thomas Fahringer",
-            "Syed Attique Shah",
-            "Dirk Draheim"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -841,7 +791,7 @@
     {
         "title": "The Role of Force Fields and Water Models in Protein Folding and Unfolding Dynamics",
         "year": 2024,
-        "citations": 39,
+        "citations": 40,
         "link": "https://doi.org/10.1021/acs.jctc.3c01106",
         "venue": "Journal of Chemical Theory and Computation",
         "open_access": true,
@@ -901,26 +851,6 @@
             "Thomas Fahringer",
             "Stefan Pedratscher",
             "Juan Aznar-Poveda"
-        ]
-    },
-    {
-        "title": "Performance of a Distributed Apriori Algorithm Using the Serverless Functions of the Apollo Framework",
-        "year": 2024,
-        "citations": 3,
-        "link": "https://doi.org/10.36227/techrxiv.172412651.15072267/v1",
-        "venue": "arXiv",
-        "open_access": true,
-        "all_authors": [
-            "Mahtab Shahin",
-            "Syed Attique Shah",
-            "Rahul Sharma",
-            "Tara Ghasempouri",
-            "Juan Aznar Poveda",
-            "Thomas Fahringer",
-            "Dirk Draheim"
-        ],
-        "group_authors": [
-            "Thomas Fahringer"
         ]
     },
     {
@@ -1031,7 +961,7 @@
         ]
     },
     {
-        "title": "Performance of a Distributed Apriori Algorithm Using the Serverless Functions of the Apollo Framework",
+        "title": "Performance of a Distributed Apriori Algorithm Using the Serverless Functions of the Apollo Framework",
         "year": 2024,
         "citations": 1,
         "link": "https://doi.org/10.1007/978-3-031-70595-3_37",
@@ -1216,7 +1146,8 @@
             "Dirk Draheim"
         ],
         "group_authors": [
-            "Thomas Fahringer"
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -1236,6 +1167,7 @@
         "group_authors": [
             "Thomas Fahringer",
             "Stefan Pedratscher",
+            "Juan Aznar-Poveda",
             "Zahra Najafabadi-Samani"
         ]
     },
@@ -1429,6 +1361,27 @@
         ]
     },
     {
+        "title": "SDKV: A Smart and Distributed Key-Value Store for the Edge-Cloud Continuum",
+        "year": 2023,
+        "citations": 4,
+        "link": "https://doi.org/10.1145/3603166.3632126",
+        "venue": "Proceedings of the IEEE/ACM 16th International Conference on Utility and Cloud Computing",
+        "open_access": true,
+        "all_authors": [
+            "Juan Aznar-Poveda",
+            "Tobias Pockstaller",
+            "Thomas Fahringer",
+            "Stefan Pedratscher",
+            "Zahra Najafabadi Samani"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Stefan Pedratscher",
+            "Juan Aznar-Poveda",
+            "Zahra Najafabadi-Samani"
+        ]
+    },
+    {
         "title": "Tunable and Portable Extreme-Scale Drug Discovery Platform at Exascale",
         "year": 2023,
         "citations": 4,
@@ -1476,27 +1429,6 @@
             "Peter Thoman",
             "Philipp Gschwandtner",
             "Philip Salzmann"
-        ]
-    },
-    {
-        "title": "SDKV: A Smart and Distributed Key-Value Store for the Edge-Cloud Continuum",
-        "year": 2023,
-        "citations": 3,
-        "link": "https://doi.org/10.1145/3603166.3632126",
-        "venue": "Proceedings of the IEEE/ACM 16th International Conference on Utility and Cloud Computing",
-        "open_access": true,
-        "all_authors": [
-            "Juan Aznar-Poveda",
-            "Tobias Pockstaller",
-            "Thomas Fahringer",
-            "Stefan Pedratscher",
-            "Zahra Najafabadi Samani"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Stefan Pedratscher",
-            "Juan Aznar-Poveda",
-            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -1726,7 +1658,7 @@
         "year": 2021,
         "citations": 49,
         "link": "https://doi.org/10.1109/works54523.2021.00016",
-        "venue": "UvA-DARE (University of Amsterdam)",
+        "venue": "Research Explorer (The University of Manchester)",
         "open_access": true,
         "all_authors": [
             "Rafael Ferreira da Silva",
@@ -1769,7 +1701,7 @@
         "citations": 31,
         "link": "https://doi.org/10.1109/dcc50243.2021.00018",
         "venue": "Digital Library of the University of Innsbruck (University of Innsbruck)",
-        "open_access": true,
+        "open_access": false,
         "all_authors": [
             "Fabian Knorr",
             "Peter Thoman",
