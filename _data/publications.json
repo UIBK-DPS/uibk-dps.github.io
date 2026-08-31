@@ -2,7 +2,7 @@
     {
         "title": "FAST-LoRa: An Efficient Simulation Framework for Evaluating LoRaWAN Networks and Transmission Parameter Strategies",
         "year": 2026,
-        "citations": 1,
+        "citations": 2,
         "link": "https://doi.org/10.1109/access.2026.3669347",
         "venue": "IEEE Access",
         "open_access": true,
@@ -18,6 +18,30 @@
         ],
         "group_authors": [
             "Thomas Fahringer"
+        ]
+    },
+    {
+        "title": "CADD: Collaborative adaptive duty cycle and data reduction for congestion control in LoRaWAN",
+        "year": 2026,
+        "citations": 1,
+        "link": "https://doi.org/10.1016/j.iot.2026.101904",
+        "venue": "Internet of Things",
+        "open_access": true,
+        "all_authors": [
+            "Laura Acosta-Garcia",
+            "Juan Aznar-Poveda",
+            "Stefan Pedratscher",
+            "Marlon Etheredge",
+            "Rafael Asorey-Cacheda",
+            "Joan Garcia-Haro",
+            "Thomas Fahringer",
+            "Antonio-Javier García-Sánchez"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Stefan Pedratscher",
+            "Juan Aznar-Poveda",
+            "Marlon Etheredge"
         ]
     },
     {
@@ -37,30 +61,6 @@
         "group_authors": [
             "Thomas Fahringer",
             "Stefan Pedratscher",
-            "Marlon Etheredge"
-        ]
-    },
-    {
-        "title": "CADD: Collaborative adaptive duty cycle and data reduction for congestion control in LoRaWAN",
-        "year": 2026,
-        "citations": 0,
-        "link": "https://doi.org/10.1016/j.iot.2026.101904",
-        "venue": "Internet of Things",
-        "open_access": true,
-        "all_authors": [
-            "Laura Acosta-Garcia",
-            "Juan Aznar-Poveda",
-            "Stefan Pedratscher",
-            "Marlon Etheredge",
-            "Rafael Asorey-Cacheda",
-            "Joan Garcia-Haro",
-            "Thomas Fahringer",
-            "Antonio-Javier García-Sánchez"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Stefan Pedratscher",
-            "Juan Aznar-Poveda",
             "Marlon Etheredge"
         ]
     },
@@ -142,6 +142,48 @@
         "group_authors": [
             "Thomas Fahringer",
             "Juan Aznar-Poveda"
+        ]
+    },
+    {
+        "title": "Towards High-Level Declarative Infrastructure Description for the IoT-Edge-Cloud Continuum",
+        "year": 2026,
+        "citations": 0,
+        "link": "https://doi.org/10.1109/dcoss-iot69657.2026.00029",
+        "venue": "2026 22nd International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
+        "open_access": false,
+        "all_authors": [
+            "Marlon Etheredge",
+            "Juan Aznar Poveda",
+            "David Gstir",
+            "Stefan Pedratscher",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Stefan Pedratscher",
+            "Marlon Etheredge"
+        ]
+    },
+    {
+        "title": "LEAP: An Adaptive Transmission Strategy for Energy-efficient Positioning in LoRaWAN Networks",
+        "year": 2026,
+        "citations": 0,
+        "link": "https://doi.org/10.1109/dcoss-iot69657.2026.00042",
+        "venue": "2026 22nd International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
+        "open_access": false,
+        "all_authors": [
+            "Juan Aznar Poveda",
+            "Stefan Pedratscher",
+            "Abolfazl Younesi",
+            "Miriam Leitner",
+            "Laura Acosta Garcia",
+            "Thomas Fahringer",
+            "Antonio Javier Garcia Sanchez",
+            "Joan Garcia Haro"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Stefan Pedratscher"
         ]
     },
     {
@@ -281,7 +323,7 @@
     {
         "title": "HealthCare 5.0: An industry 5.0 perspective for next-generation medical systems with synergistic integration of IoT, AI, and 6G",
         "year": 2025,
-        "citations": 10,
+        "citations": 12,
         "link": "https://doi.org/10.1016/j.iot.2025.101815",
         "venue": "Internet of Things",
         "open_access": true,
@@ -294,6 +336,26 @@
         ],
         "group_authors": [
             "Thomas Fahringer"
+        ]
+    },
+    {
+        "title": "ADRL: A reconfigurable energy-efficient transmission policy for mobile LoRa devices based on reinforcement learning",
+        "year": 2025,
+        "citations": 7,
+        "link": "https://doi.org/10.1016/j.iot.2025.101577",
+        "venue": "Internet of Things",
+        "open_access": true,
+        "all_authors": [
+            "Laura Acosta-Garcia",
+            "Juan Aznar-Poveda",
+            "Antonio-Javier García-Sánchez",
+            "Jakob Hollenstein",
+            "Joan Garcı́a-Haro",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -314,26 +376,6 @@
         "group_authors": [
             "Thomas Fahringer",
             "Zahra Najafabadi-Samani"
-        ]
-    },
-    {
-        "title": "ADRL: A reconfigurable energy-efficient transmission policy for mobile LoRa devices based on reinforcement learning",
-        "year": 2025,
-        "citations": 6,
-        "link": "https://doi.org/10.1016/j.iot.2025.101577",
-        "venue": "Internet of Things",
-        "open_access": true,
-        "all_authors": [
-            "Laura Acosta-Garcia",
-            "Juan Aznar-Poveda",
-            "Antonio-Javier García-Sánchez",
-            "Jakob Hollenstein",
-            "Joan Garcı́a-Haro",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -365,7 +407,7 @@
     {
         "title": "MOSAIC: Mobility-Oriented Scheduling and Intelligent Resource Allocation for IoT",
         "year": 2025,
-        "citations": 3,
+        "citations": 4,
         "link": "https://doi.org/10.1109/tmc.2025.3640765",
         "venue": "IEEE Transactions on Mobile Computing",
         "open_access": true,
@@ -378,6 +420,30 @@
         ],
         "group_authors": [
             "Thomas Fahringer"
+        ]
+    },
+    {
+        "title": "SmartKV: A cost-effective and low-latency geo-distributed key-value store for the computing continuum",
+        "year": 2025,
+        "citations": 3,
+        "link": "https://doi.org/10.1016/j.future.2025.107857",
+        "venue": "Future Generation Computer Systems",
+        "open_access": true,
+        "all_authors": [
+            "Juan Aznar-Poveda",
+            "Maximilian Franz Ebner",
+            "Thomas Fahringer",
+            "Zahra Najafabadi Samani",
+            "Marlon Etheredge",
+            "Stefan Pedratscher",
+            "Nishant Saurabh"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Stefan Pedratscher",
+            "Juan Aznar-Poveda",
+            "Marlon Etheredge",
+            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -435,30 +501,6 @@
             "Thomas Fahringer",
             "Peter Thoman",
             "Philipp Gschwandtner"
-        ]
-    },
-    {
-        "title": "SmartKV: A cost-effective and low-latency geo-distributed key-value store for the computing continuum",
-        "year": 2025,
-        "citations": 2,
-        "link": "https://doi.org/10.1016/j.future.2025.107857",
-        "venue": "Future Generation Computer Systems",
-        "open_access": true,
-        "all_authors": [
-            "Juan Aznar-Poveda",
-            "Maximilian Franz Ebner",
-            "Thomas Fahringer",
-            "Zahra Najafabadi Samani",
-            "Marlon Etheredge",
-            "Stefan Pedratscher",
-            "Nishant Saurabh"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Stefan Pedratscher",
-            "Juan Aznar-Poveda",
-            "Marlon Etheredge",
-            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -541,6 +583,31 @@
             "Thomas Fahringer",
             "Peter Thoman",
             "Philip Salzmann"
+        ]
+    },
+    {
+        "title": "FedGuard: Leader-Aware Fault-Tolerant Federated Learning in the Cloud–Edge Continuum",
+        "year": 2025,
+        "citations": 1,
+        "link": "https://doi.org/10.1145/3773274.3774690",
+        "venue": "Proceedings of the 18th IEEE/ACM International Conference on Utility and Cloud Computing",
+        "open_access": true,
+        "all_authors": [
+            "Juan Aznar Poveda",
+            "Stefan Pedratscher",
+            "Peter Burger",
+            "Abolfazl Younesi",
+            "Marlon Etheredge",
+            "Zahra Najafabadi Samani",
+            "Peter Thoman",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman",
+            "Stefan Pedratscher",
+            "Marlon Etheredge",
+            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -635,31 +702,6 @@
             "Thomas Fahringer",
             "Peter Thoman",
             "Philip Salzmann"
-        ]
-    },
-    {
-        "title": "FedGuard: Leader-Aware Fault-Tolerant Federated Learning in the Cloud–Edge Continuum",
-        "year": 2025,
-        "citations": 0,
-        "link": "https://doi.org/10.1145/3773274.3774690",
-        "venue": "Proceedings of the 18th IEEE/ACM International Conference on Utility and Cloud Computing",
-        "open_access": true,
-        "all_authors": [
-            "Juan Aznar Poveda",
-            "Stefan Pedratscher",
-            "Peter Burger",
-            "Abolfazl Younesi",
-            "Marlon Etheredge",
-            "Zahra Najafabadi Samani",
-            "Peter Thoman",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman",
-            "Stefan Pedratscher",
-            "Marlon Etheredge",
-            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -838,7 +880,7 @@
     {
         "title": "Dynamic Workflow Scheduling in the Edge-Cloud Continuum: Optimizing Runtimes Under Budget Constraints",
         "year": 2024,
-        "citations": 4,
+        "citations": 5,
         "link": "https://doi.org/10.1109/cloud62652.2024.00018",
         "venue": "2024 IEEE 17th International Conference on Cloud Computing (CLOUD)",
         "open_access": false,
@@ -854,25 +896,9 @@
         ]
     },
     {
-        "title": "SimSYCL: A SYCL Implementation Targeting Development, Debugging, Simulation and Conformance",
-        "year": 2024,
-        "citations": 3,
-        "link": "https://doi.org/10.1145/3648115.3648136",
-        "venue": "Digital Library of the University of Innsbruck (University of Innsbruck)",
-        "open_access": true,
-        "all_authors": [
-            "Peter Thoman",
-            "Fabian Knorr",
-            "Luigi Crisci"
-        ],
-        "group_authors": [
-            "Peter Thoman"
-        ]
-    },
-    {
         "title": "Automatic Discovery of Collective Communication Patterns in Parallelized Task Graphs",
         "year": 2024,
-        "citations": 2,
+        "citations": 3,
         "link": "https://doi.org/10.1007/s10766-024-00767-y",
         "venue": "International Journal of Parallel Programming",
         "open_access": true,
@@ -891,7 +917,7 @@
     {
         "title": "Proactive Adaptation of Data Rate in Mobile LoRa-Based IoT Devices Using Machine Learning",
         "year": 2024,
-        "citations": 2,
+        "citations": 3,
         "link": "https://doi.org/10.1109/vtc2024-spring62846.2024.10683082",
         "venue": "2024 IEEE 99th Vehicular Technology Conference (VTC2024-Spring)",
         "open_access": false,
@@ -905,6 +931,22 @@
         "group_authors": [
             "Thomas Fahringer",
             "Juan Aznar-Poveda"
+        ]
+    },
+    {
+        "title": "SimSYCL: A SYCL Implementation Targeting Development, Debugging, Simulation and Conformance",
+        "year": 2024,
+        "citations": 3,
+        "link": "https://doi.org/10.1145/3648115.3648136",
+        "venue": "Digital Library of the University of Innsbruck (University of Innsbruck)",
+        "open_access": true,
+        "all_authors": [
+            "Peter Thoman",
+            "Fabian Knorr",
+            "Luigi Crisci"
+        ],
+        "group_authors": [
+            "Peter Thoman"
         ]
     },
     {
@@ -1308,8 +1350,8 @@
         "year": 2023,
         "citations": 14,
         "link": "https://doi.org/10.1109/ccgrid57682.2023.00018",
-        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-        "open_access": true,
+        "venue": "2023 IEEE/ACM 23rd International Symposium on Cluster, Cloud and Internet Computing (CCGrid)",
+        "open_access": false,
         "all_authors": [
             "Philip Salzmann",
             "Fabian Knorr",
@@ -1328,7 +1370,7 @@
     {
         "title": "Dynamic transmission policy for enhancing LoRa network performance: A deep reinforcement learning approach",
         "year": 2023,
-        "citations": 12,
+        "citations": 13,
         "link": "https://doi.org/10.1016/j.iot.2023.100974",
         "venue": "Internet of Things",
         "open_access": true,
@@ -2063,7 +2105,7 @@
     {
         "title": "Evolutionary Multi-Objective Workflow Scheduling for Volatile Resources in the Cloud",
         "year": 2020,
-        "citations": 46,
+        "citations": 48,
         "link": "https://doi.org/10.1109/tcc.2020.2993250",
         "venue": "IEEE Transactions on Cloud Computing",
         "open_access": true,
@@ -2078,7 +2120,7 @@
     {
         "title": "SYCL-Bench: A Versatile Cross-Platform Benchmark Suite for Heterogeneous Computing",
         "year": 2020,
-        "citations": 23,
+        "citations": 24,
         "link": "https://doi.org/10.1007/978-3-030-57675-2_39",
         "venue": "Lecture notes in computer science",
         "open_access": true,
