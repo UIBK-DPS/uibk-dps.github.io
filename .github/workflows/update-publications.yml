@@ -10,7 +10,7 @@ on:
 
 permissions:
   contents: write
-
+  actions: write # Required to trigger workflows via API
 
 jobs:
   update-publications:
@@ -21,23 +21,21 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v4
-
+        with:
+          ref: main
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-
       - name: Install dependencies
         run: |
           pip install requests
 
-
       - name: Run publication fetcher
         run: |
           python papers_fetcher/fetcher.py
-
 
       - name: Commit updated publications
         run: |
@@ -49,3 +47,14 @@ jobs:
           git diff --cached --quiet || git commit -m "Update publications database"
 
           git push
+
+      - name: Trigger deployment workflow
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy.yml', // Replace with your actual deploy workflow filename if different
+              ref: 'main'
+            });
