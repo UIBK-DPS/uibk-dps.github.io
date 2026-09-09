@@ -55,6 +55,6 @@ jobs:
             await github.rest.actions.createWorkflowDispatch({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              workflow_id: 'deploy.yml', // Replace with your actual deploy workflow filename if different
+              workflow_id: 'jekyll.yml',
               ref: 'main'
             });
