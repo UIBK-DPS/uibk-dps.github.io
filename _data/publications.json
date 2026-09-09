@@ -323,7 +323,7 @@
     {
         "title": "HealthCare 5.0: An industry 5.0 perspective for next-generation medical systems with synergistic integration of IoT, AI, and 6G",
         "year": 2025,
-        "citations": 12,
+        "citations": 13,
         "link": "https://doi.org/10.1016/j.iot.2025.101815",
         "venue": "Internet of Things",
         "open_access": true,
@@ -1757,7 +1757,7 @@
     {
         "title": "ndzip-gpu",
         "year": 2021,
-        "citations": 27,
+        "citations": 28,
         "link": "https://doi.org/10.1145/3458817.3476224",
         "venue": "Zenodo (CERN European Organization for Nuclear Research)",
         "open_access": true,
