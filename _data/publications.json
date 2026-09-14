@@ -284,7 +284,7 @@
     {
         "title": "A terminology for scientific workflow systems",
         "year": 2025,
-        "citations": 17,
+        "citations": 18,
         "link": "https://doi.org/10.1016/j.future.2025.107974",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -447,6 +447,27 @@
         ]
     },
     {
+        "title": "ScaleIP: A hybrid autoscaling of VoIP services based on deep reinforcement learning",
+        "year": 2025,
+        "citations": 3,
+        "link": "https://doi.org/10.1016/j.comcom.2025.108314",
+        "venue": "Computer Communications",
+        "open_access": true,
+        "all_authors": [
+            "Zahra Najafabadi Samani",
+            "Juan Aznar-Poveda",
+            "Dominik Grätz",
+            "Rene Hueber",
+            "Philipp Kalb",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda",
+            "Zahra Najafabadi-Samani"
+        ]
+    },
+    {
         "title": "Towards Smarter Maritime Security: Apriori Algorithm Optimization in Serverless Environments",
         "year": 2025,
         "citations": 3,
@@ -523,27 +544,6 @@
         "group_authors": [
             "Thomas Fahringer",
             "Juan Aznar-Poveda"
-        ]
-    },
-    {
-        "title": "ScaleIP: A hybrid autoscaling of VoIP services based on deep reinforcement learning",
-        "year": 2025,
-        "citations": 2,
-        "link": "https://doi.org/10.1016/j.comcom.2025.108314",
-        "venue": "Computer Communications",
-        "open_access": true,
-        "all_authors": [
-            "Zahra Najafabadi Samani",
-            "Juan Aznar-Poveda",
-            "Dominik Grätz",
-            "Rene Hueber",
-            "Philipp Kalb",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda",
-            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -1607,6 +1607,23 @@
         ]
     },
     {
+        "title": "On the Compilation Performance of Current SYCL Implementations",
+        "year": 2022,
+        "citations": 8,
+        "link": "https://doi.org/10.1145/3529538.3529548",
+        "venue": "International Workshop on OpenCL",
+        "open_access": true,
+        "all_authors": [
+            "Peter Thoman",
+            "Facundo Molina Heredia",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman"
+        ]
+    },
+    {
         "title": "The Celerity High-level API: C++20 for Accelerator Clusters",
         "year": 2022,
         "citations": 8,
@@ -1623,23 +1640,6 @@
             "Thomas Fahringer",
             "Peter Thoman",
             "Philip Salzmann"
-        ]
-    },
-    {
-        "title": "On the Compilation Performance of Current SYCL Implementations",
-        "year": 2022,
-        "citations": 7,
-        "link": "https://doi.org/10.1145/3529538.3529548",
-        "venue": "International Workshop on OpenCL",
-        "open_access": true,
-        "all_authors": [
-            "Peter Thoman",
-            "Facundo Molina Heredia",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman"
         ]
     },
     {
@@ -1740,7 +1740,7 @@
     {
         "title": "ndzip: A High-Throughput Parallel Lossless Compressor for Scientific Data",
         "year": 2021,
-        "citations": 31,
+        "citations": 32,
         "link": "https://doi.org/10.1109/dcc50243.2021.00018",
         "venue": "Digital Library of the University of Innsbruck (University of Innsbruck)",
         "open_access": false,
@@ -1757,7 +1757,7 @@
     {
         "title": "ndzip-gpu",
         "year": 2021,
-        "citations": 28,
+        "citations": 29,
         "link": "https://doi.org/10.1145/3458817.3476224",
         "venue": "Zenodo (CERN European Organization for Nuclear Research)",
         "open_access": true,
