@@ -565,27 +565,6 @@
         ]
     },
     {
-        "title": "A Portable Compiler-Runtime Approach for Scalability Prediction",
-        "year": 2025,
-        "citations": 1,
-        "link": "https://doi.org/10.1016/j.future.2025.108337",
-        "venue": "Future Generation Computer Systems",
-        "open_access": true,
-        "all_authors": [
-            "Nicolai Stawinoga",
-            "Sohan Lal",
-            "Biagio Cosenza",
-            "Philip Salzmann",
-            "Peter Thoman",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman",
-            "Philip Salzmann"
-        ]
-    },
-    {
         "title": "FedGuard: Leader-Aware Fault-Tolerant Federated Learning in the Cloud–Edge Continuum",
         "year": 2025,
         "citations": 1,
@@ -608,6 +587,27 @@
             "Stefan Pedratscher",
             "Marlon Etheredge",
             "Zahra Najafabadi-Samani"
+        ]
+    },
+    {
+        "title": "A Portable Compiler-Runtime Approach for Scalability Prediction",
+        "year": 2025,
+        "citations": 1,
+        "link": "https://doi.org/10.1016/j.future.2025.108337",
+        "venue": "Future Generation Computer Systems",
+        "open_access": true,
+        "all_authors": [
+            "Nicolai Stawinoga",
+            "Sohan Lal",
+            "Biagio Cosenza",
+            "Philip Salzmann",
+            "Peter Thoman",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman",
+            "Philip Salzmann"
         ]
     },
     {
@@ -833,7 +833,7 @@
     {
         "title": "The Role of Force Fields and Water Models in Protein Folding and Unfolding Dynamics",
         "year": 2024,
-        "citations": 41,
+        "citations": 42,
         "link": "https://doi.org/10.1021/acs.jctc.3c01106",
         "venue": "Journal of Chemical Theory and Computation",
         "open_access": true,
