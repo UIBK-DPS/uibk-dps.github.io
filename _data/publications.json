@@ -8,16 +8,17 @@
         "open_access": true,
         "all_authors": [
             "Laura Acosta-García",
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "Fabian Margreiter",
-            "A. García Sánchez",
+            "Antonio-Javier García-Sánchez",
             "Joan Garcı́a-Haro",
             "Thomas Fahringer",
             "José Lorente López",
             "José‐Víctor Rodríguez"
         ],
         "group_authors": [
-            "Thomas Fahringer"
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -33,7 +34,7 @@
             "Stefan Pedratscher",
             "Marlon Etheredge",
             "Rafael Asorey-Cacheda",
-            "Joan Garcia-Haro",
+            "Joan Garcı́a-Haro",
             "Thomas Fahringer",
             "Antonio-Javier García-Sánchez"
         ],
@@ -47,13 +48,13 @@
     {
         "title": "Pulse: Multi-objective scheduling of service-based applications in multi-cluster cloud–edge–IoT infrastructures",
         "year": 2026,
-        "citations": 0,
+        "citations": 1,
         "link": "https://doi.org/10.1016/j.jnca.2026.104439",
         "venue": "Journal of Network and Computer Applications",
         "open_access": true,
         "all_authors": [
             "Marlon Etheredge",
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "Stefan Pedratscher",
             "Abolfazl Younesi",
             "Thomas Fahringer"
@@ -61,6 +62,7 @@
         "group_authors": [
             "Thomas Fahringer",
             "Stefan Pedratscher",
+            "Juan Aznar-Poveda",
             "Marlon Etheredge"
         ]
     },
@@ -78,17 +80,18 @@
             "Štefan Dlugolinský",
             "Thomas Fahringer",
             "Zahra Najafabadi Samani",
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "Jacek Kitowski",
             "Bartosz Kryza",
             "Renata Slota",
-            "Alvaro Vazquez Rodriguez",
+            "Álvaro Vázquez-Rodríguez",
             "Carlos Giraldo Rodriguez",
             "Fedor Lehocki",
             "Peter Kissa"
         ],
         "group_authors": [
             "Thomas Fahringer",
+            "Juan Aznar-Poveda",
             "Zahra Najafabadi-Samani"
         ]
     },
@@ -106,9 +109,9 @@
             "Marlon Etheredge",
             "Abolfazl Younesi",
             "Stefan Pedratscher",
-            "Joan Garcia-Haro",
+            "Joan Garcı́a-Haro",
             "Thomas Fahringer",
-            "Antonio-Javier Garcia-Sanchez"
+            "Antonio-Javier García-Sánchez"
         ],
         "group_authors": [
             "Thomas Fahringer",
@@ -137,7 +140,7 @@
             "Martin Bobák",
             "Ladislav Hluchý",
             "Igor Skrlec",
-            "Peter Kišša"
+            "Peter Kissa"
         ],
         "group_authors": [
             "Thomas Fahringer",
@@ -153,7 +156,7 @@
         "open_access": false,
         "all_authors": [
             "Marlon Etheredge",
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "David Gstir",
             "Stefan Pedratscher",
             "Thomas Fahringer"
@@ -161,6 +164,7 @@
         "group_authors": [
             "Thomas Fahringer",
             "Stefan Pedratscher",
+            "Juan Aznar-Poveda",
             "Marlon Etheredge"
         ]
     },
@@ -172,7 +176,7 @@
         "venue": "2026 22nd International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
         "open_access": false,
         "all_authors": [
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "Stefan Pedratscher",
             "Abolfazl Younesi",
             "Miriam Leitner",
@@ -183,7 +187,35 @@
         ],
         "group_authors": [
             "Thomas Fahringer",
-            "Stefan Pedratscher"
+            "Stefan Pedratscher",
+            "Juan Aznar-Poveda"
+        ]
+    },
+    {
+        "title": "Enabling Agentic AI across the Cloud-Edge Computing Continuum: A Research Roadmap",
+        "year": 2026,
+        "citations": 0,
+        "link": "https://doi.org/10.15439/2026f0210",
+        "venue": "Annals of Computer Science and Information Systems",
+        "open_access": true,
+        "all_authors": [
+            "Radu Prodan",
+            "Hui Song",
+            "Arda Göknil",
+            "Dumitru Roman",
+            "Maria Carolina Fazio",
+            "Massimo Villari",
+            "Massimo Mecella",
+            "Maryam Doborjeh",
+            "Nikola Kirilov Kasabov",
+            "JeongGil Ko",
+            "Hyunwhan Joe",
+            "Hong-Gee Kim",
+            "Thomas Fahringer",
+            "Zahra Najafabadi"
+        ],
+        "group_authors": [
+            "Thomas Fahringer"
         ]
     },
     {
@@ -247,8 +279,8 @@
             "Andrés Ramírez",
             "Philipp Haim",
             "David Föger",
-            "T. A. Enßlin",
-            "Philipp Frank",
+            "Torsten A. Enßlin",
+            "Philipp G. Frank",
             "Philipp Gschwandtner",
             "Dominik Jüstel",
             "Philipp Mertsch",
@@ -259,6 +291,22 @@
         ],
         "group_authors": [
             "Philipp Gschwandtner"
+        ]
+    },
+    {
+        "title": "FAST-LoRa: An Efficient Simulation Framework for LoRaWAN Networks",
+        "year": 2026,
+        "citations": 0,
+        "link": "https://doi.org/10.24433/co.6287911.v1",
+        "venue": "Code Ocean",
+        "open_access": true,
+        "all_authors": [
+            "Fabian Margreiter",
+            "Laura Acosta Garcia",
+            "Juan Aznar-Poveda"
+        ],
+        "group_authors": [
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -273,8 +321,8 @@
             "Gregory L. Heileman",
             "Roxana Akbarsharifi",
             "Kian Alavy",
-            "Aryan Pathare",
-            "Kristina Manasil",
+            "Aryan Ajay Pathare",
+            "Kristina A. Manasil",
             "Mahshad Akbarsharifi"
         ],
         "group_authors": [
@@ -304,13 +352,13 @@
             "Daniel S. Katz",
             "Johannes Köster",
             "Ulf Leser",
-            "Kshitij Mehta",
+            "Kshitij R. Mehta",
             "Hilary Oliver",
             "J. L. Peterson",
             "Giovanni Pizzi",
             "Loïc Pottier",
             "Raül Sirvent",
-            "E. Suchyta",
+            "Eric Suchyta",
             "Douglas Thain",
             "Sean R. Wilkinson",
             "Justin M. Wozniak",
@@ -323,7 +371,7 @@
     {
         "title": "HealthCare 5.0: An industry 5.0 perspective for next-generation medical systems with synergistic integration of IoT, AI, and 6G",
         "year": 2025,
-        "citations": 13,
+        "citations": 14,
         "link": "https://doi.org/10.1016/j.iot.2025.101815",
         "venue": "Internet of Things",
         "open_access": true,
@@ -341,7 +389,7 @@
     {
         "title": "Splitwise: Collaborative Edge–Cloud Inference for LLMs via Lyapunov-Assisted DRL",
         "year": 2025,
-        "citations": 8,
+        "citations": 9,
         "link": "https://doi.org/10.1145/3773274.3774267",
         "venue": "arXiv (Cornell University)",
         "open_access": true,
@@ -407,7 +455,7 @@
     {
         "title": "MOSAIC: Mobility-Oriented Scheduling and Intelligent Resource Allocation for IoT",
         "year": 2025,
-        "citations": 4,
+        "citations": 5,
         "link": "https://doi.org/10.1109/tmc.2025.3640765",
         "venue": "IEEE Transactions on Mobile Computing",
         "open_access": true,
@@ -425,7 +473,7 @@
     {
         "title": "SmartKV: A cost-effective and low-latency geo-distributed key-value store for the computing continuum",
         "year": 2025,
-        "citations": 3,
+        "citations": 4,
         "link": "https://doi.org/10.1016/j.future.2025.107857",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -447,6 +495,25 @@
         ]
     },
     {
+        "title": "Towards Smarter Maritime Security: Apriori Algorithm Optimization in Serverless Environments",
+        "year": 2025,
+        "citations": 4,
+        "link": "https://doi.org/10.1016/j.procs.2025.03.059",
+        "venue": "Procedia Computer Science",
+        "open_access": true,
+        "all_authors": [
+            "Mahtab Shahin",
+            "Saeed Rahimpour",
+            "Tara Ghasempouri",
+            "Sanja I. Bauk",
+            "Thomas Fahringer",
+            "Dirk Draheim"
+        ],
+        "group_authors": [
+            "Thomas Fahringer"
+        ]
+    },
+    {
         "title": "ScaleIP: A hybrid autoscaling of VoIP services based on deep reinforcement learning",
         "year": 2025,
         "citations": 3,
@@ -465,25 +532,6 @@
             "Thomas Fahringer",
             "Juan Aznar-Poveda",
             "Zahra Najafabadi-Samani"
-        ]
-    },
-    {
-        "title": "Towards Smarter Maritime Security: Apriori Algorithm Optimization in Serverless Environments",
-        "year": 2025,
-        "citations": 3,
-        "link": "https://doi.org/10.1016/j.procs.2025.03.059",
-        "venue": "Procedia Computer Science",
-        "open_access": true,
-        "all_authors": [
-            "Mahtab Shahin",
-            "Saeed Rahimpour",
-            "Tara Ghasempouri",
-            "Sanja Bauk",
-            "Thomas Fahringer",
-            "Dirk Draheim"
-        ],
-        "group_authors": [
-            "Thomas Fahringer"
         ]
     },
     {
@@ -565,31 +613,6 @@
         ]
     },
     {
-        "title": "FedGuard: Leader-Aware Fault-Tolerant Federated Learning in the Cloud–Edge Continuum",
-        "year": 2025,
-        "citations": 1,
-        "link": "https://doi.org/10.1145/3773274.3774690",
-        "venue": "Proceedings of the 18th IEEE/ACM International Conference on Utility and Cloud Computing",
-        "open_access": true,
-        "all_authors": [
-            "Juan Aznar Poveda",
-            "Stefan Pedratscher",
-            "Peter Burger",
-            "Abolfazl Younesi",
-            "Marlon Etheredge",
-            "Zahra Najafabadi Samani",
-            "Peter Thoman",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman",
-            "Stefan Pedratscher",
-            "Marlon Etheredge",
-            "Zahra Najafabadi-Samani"
-        ]
-    },
-    {
         "title": "A Portable Compiler-Runtime Approach for Scalability Prediction",
         "year": 2025,
         "citations": 1,
@@ -611,6 +634,32 @@
         ]
     },
     {
+        "title": "FedGuard: Leader-Aware Fault-Tolerant Federated Learning in the Cloud–Edge Continuum",
+        "year": 2025,
+        "citations": 1,
+        "link": "https://doi.org/10.1145/3773274.3774690",
+        "venue": "Proceedings of the 18th IEEE/ACM International Conference on Utility and Cloud Computing",
+        "open_access": true,
+        "all_authors": [
+            "Juan Aznar-Poveda",
+            "Stefan Pedratscher",
+            "Peter Burger",
+            "Abolfazl Younesi",
+            "Marlon Etheredge",
+            "Zahra Najafabadi Samani",
+            "Peter Thoman",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman",
+            "Stefan Pedratscher",
+            "Juan Aznar-Poveda",
+            "Marlon Etheredge",
+            "Zahra Najafabadi-Samani"
+        ]
+    },
+    {
         "title": "A performance comparison of analytical and heuristic optimization methods for determining an energy-efficient user distribution in office environments",
         "year": 2025,
         "citations": 1,
@@ -622,7 +671,7 @@
             "Johannes Weninger",
             "Iolanthe Hochleitner",
             "Marco Fröhlich",
-            "P Zech",
+            "Philipp Zech",
             "Philipp Gschwandtner"
         ],
         "group_authors": [
@@ -639,7 +688,7 @@
         "all_authors": [
             "Sascha Hammes",
             "Johannes Weninger",
-            "P Zech",
+            "Philipp Zech",
             "Philipp Gschwandtner"
         ],
         "group_authors": [
@@ -732,7 +781,7 @@
         "venue": "Proceedings of the 18th IEEE/ACM International Conference on Utility and Cloud Computing",
         "open_access": true,
         "all_authors": [
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "Zahra Najafabadi Samani",
             "Marco Cotrotzo",
             "Jona Florian Müller",
@@ -742,6 +791,7 @@
         "group_authors": [
             "Thomas Fahringer",
             "Philipp Gschwandtner",
+            "Juan Aznar-Poveda",
             "Zahra Najafabadi-Samani"
         ]
     },
@@ -850,7 +900,7 @@
             "Philipp Gschwandtner",
             "Stefano Forli",
             "Andrew B. Ward",
-            "Klaus R. Liedl",
+            "Klaus Roman Liedl",
             "Martin Zacharias",
             "Monica L. Fernández‐Quintero"
         ],
@@ -861,7 +911,7 @@
     {
         "title": "SYCL-Bench 2020: Benchmarking SYCL 2020 on AMD, Intel, and NVIDIA GPUs",
         "year": 2024,
-        "citations": 10,
+        "citations": 11,
         "link": "https://doi.org/10.1145/3648115.3648120",
         "venue": "Proceedings of the 12th International Workshop on OpenCL and SYCL",
         "open_access": true,
@@ -968,11 +1018,11 @@
             "Andrea R. Beccari",
             "Domenico Bonanni",
             "Carmine Talarico",
-            "F. Lughini",
+            "Filippo Lunghini",
             "A. D. Biswas",
             "Jan Martinovič",
             "Martin Golasowski",
-            "Paulo Silva",
+            "Paulo Victor Santos Silva",
             "Stanislav Böhm",
             "Jakub Beránek",
             "Jan Křenek",
@@ -980,15 +1030,15 @@
             "Peter Thoman",
             "Philip Salzmann",
             "Thomas Fahringer",
-            "Torsten Schwede",
+            "Torsten F. Schwede",
             "Leila T. Alexander",
             "Gerardo Tauriello",
             "Janani Durairaj",
             "Biagio Cosenza",
             "Luigi Crisci",
-            "Andrew Emerson",
+            "Andrew P. J. Emerson",
             "Federico Ficarelli",
-            "Erik Lindahl",
+            "Erik R. Lindahl",
             "Sebastian Wingbermühle",
             "Daniele Gregori",
             "Silvano Coletti",
@@ -1014,12 +1064,13 @@
             "Syed Attique Shah",
             "Rahul Sharma",
             "Tara Ghasempouri",
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "Thomas Fahringer",
             "Dirk Draheim"
         ],
         "group_authors": [
-            "Thomas Fahringer"
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -1032,14 +1083,15 @@
         "all_authors": [
             "Mahtab Shahin",
             "Nasim Janatian",
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "Thomas Fahringer",
             "Tara Ghasempouri",
             "Syed Attique Shah",
             "Dirk Draheim"
         ],
         "group_authors": [
-            "Thomas Fahringer"
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -1053,8 +1105,8 @@
             "Rafael Ferreira da Silva",
             "Deborah Bard",
             "Kyle Chard",
-            "de Witt Shaun",
-            "Ian Foster",
+            "Shaun de Witt",
+            "Ian T Foster",
             "Tom Gibbs",
             "Carole Goble",
             "William F. Godoy",
@@ -1065,7 +1117,7 @@
             "Los, Laila",
             "Drew Paine",
             "Frédéric Suter",
-            "Logan Ward",
+            "Logan T. Ward",
             "Sean R. Wilkinson",
             "Marcos Amarís",
             "Yadu Babuji",
@@ -1075,30 +1127,30 @@
             "Sarah Beecroft",
             "Khalid Belhajjame",
             "Rajat Bhattarai",
-            "Wesley Brewer",
+            "Wesley H. Brewer",
             "Paul Brunk",
             "Silvina Caíno‐Lores",
             "Henri Casanova",
-            "Daniela Cassol",
+            "Daniela Miyasaka Silveira Cassol",
             "Jared Coleman",
             "Tainã Coleman",
             "Iacopo Colonnelli",
             "Anderson Andrei Da Silva",
             "de Oliveira, Daniel",
-            "Pascal Elahi",
+            "Pascal J. Elahi",
             "Elfaramawy, Nour",
-            "Wael Elwasif",
+            "Wael R Elwasif",
             "Brian D. Etz",
             "Thomas Fahringer",
             "Ferreira, Wesley",
             "Rosa Filgueira",
             "Jacob Fosso Tande",
-            "Luiz Gadelha",
+            "Luiz M. R. Gadelha Jr.",
             "Andy Gallo",
-            "Garijo, Daniel",
+            "Daniel Garijo",
             "Yiannis Georgiou",
             "Philipp Gritsch",
-            "Patricia Grubel",
+            "Patricia A. Grubel",
             "Amal Gueroudji",
             "Quentin Guilloteau",
             "Carlo Hamalainen",
@@ -1118,9 +1170,9 @@
             "Jakob Luettgau",
             "Richard Lupat",
             "José M. Fernández",
-            "Ketan Maheshwari",
+            "Ketan C. Maheshwari",
             "Tanu Malik",
-            "Jack Marquez",
+            "Jack D. Marquez",
             "Motohiko Matsuda",
             "Doriana Medić",
             "Somayeh Mohammadi",
@@ -1130,7 +1182,7 @@
             "Klaus Noelp",
             "Bruno P. Kinoshita",
             "Ryan Prout",
-            "Michael R. Crusoe",
+            "Michael Robin Crusoe",
             "Sasko Ristov",
             "Stefan A. Robila",
             "Rosendo, Daniel",
@@ -1141,13 +1193,13 @@
             "Sumit Kumar Saurav",
             "Tom Scogland",
             "Dinindu Senanayake",
-            "Woong Shin",
+            "Woong Sik Shin",
             "Raül Sirvent",
             "Tyler J. Skluzacek",
             "Barry Sly-Delgado",
             "Stian Soiland‐Reyes",
             "Abel Souza",
-            "Renan P. Souza",
+            "Renan Pedra de Souza",
             "Domenico Talia",
             "Nathan R. Tallent"
         ],
@@ -1181,7 +1233,7 @@
         "all_authors": [
             "Mahtab Shahin",
             "Tara Ghasempouri",
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "Nasim Janatian",
             "Thomas Fahringer",
             "S A Shah",
@@ -1203,7 +1255,7 @@
             "Zahra Najafabadi Samani",
             "Matthias Gaßner",
             "Thomas Fahringer",
-            "Juan Aznar Poveda",
+            "Juan Aznar-Poveda",
             "Stefan Pedratscher"
         ],
         "group_authors": [
@@ -1211,6 +1263,26 @@
             "Stefan Pedratscher",
             "Juan Aznar-Poveda",
             "Zahra Najafabadi-Samani"
+        ]
+    },
+    {
+        "title": "Scalable Data Mining Using a Distributed Apriori Algorithm with Apollo Framework",
+        "year": 2024,
+        "citations": 0,
+        "link": "https://doi.org/10.36227/techrxiv.172412679.91614191/v1",
+        "venue": "arXiv",
+        "open_access": true,
+        "all_authors": [
+            "Mahtab Shahin",
+            "Kirill Timofejev",
+            "Juan Aznar-Poveda",
+            "Tara Ghasempouri",
+            "Thomas Fahringe",
+            "Syed Attique Shah",
+            "Dirk Draheim"
+        ],
+        "group_authors": [
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -1255,10 +1327,10 @@
             "Manish Parashar",
             "Frédéric Suter",
             "Nick Tyler",
-            "Thomas Uram",
+            "Thomas D. Uram",
             "İlkay Altıntaş",
             "Stefan Andersson",
-            "William Arndt",
+            "William D. Arndt",
             "Juan Pedro Aznar",
             "Jonathan Bader",
             "Bartosz Baliś",
@@ -1273,28 +1345,28 @@
             "Nick Collier",
             "Iacopo Colonnelli",
             "Frederik Coppens",
-            "Michael R. Crusoe",
+            "Michael Robin Crusoe",
             "W. S. Cunningham",
-            "Bruno Kinoshita",
+            "Bruno P. Kinoshita",
             "Paolo Di Tomasso",
-            "Charles Doutriaux",
+            "Charles M. Doutriaux",
             "Matthew T. Downton",
-            "Wael Elwasif",
+            "Wael R Elwasif",
             "Bjoern Enders",
-            "Christopher Erdmann",
+            "Christopher C. Erdmann",
             "Thomas Fahringer",
             "Ludmilla Figueiredo",
             "Rosa Filgueira",
             "Martin Foltín",
             "Anne Fouilloux",
-            "Luiz Gadelha",
+            "Luiz M. R. Gadelha Jr.",
             "Andy Gallo",
             "Artur Garcia",
             "Daniel Garijo",
             "Roman G. Gerlach",
-            "Ryan E. Grant",
+            "Ryan Eric Grant",
             "Samuel Grayson",
-            "Patricia Grubel",
+            "Patricia A. Grubel",
             "Johan E. Gustafsson",
             "Valerie Hayot",
             "Óscar Hernández",
@@ -1304,7 +1376,7 @@
             "Fabian Lehmann",
             "André Luckow",
             "Jakob Luettgau",
-            "Ketan Maheshwari",
+            "Ketan C. Maheshwari",
             "Motohiko Matsuda",
             "Doriana Medić",
             "Peter Mendygral",
@@ -1312,12 +1384,12 @@
             "Jorji Nonaka",
             "Maciej Pawlik",
             "Loïc Pottier",
-            "Line Pouchard",
+            "Line Catherine Pouchard",
             "Mathias Pütz",
             "Santosh Kumar Radha",
             "Lavanya Ramakrishnan",
             "Sasko Ristov",
-            "Paul Romano",
+            "Paul K. Romano",
             "Daniel Rosendo",
             "Martin Ruefenacht",
             "Katarzyna Rycerz",
@@ -1329,7 +1401,7 @@
             "Tyler J. Skluzacek",
             "Stian Soiland- Reyes",
             "Renan Santos Souza",
-            "Sreenivas R. Sukumar",
+            "Sreenivas Rangan Sukumar",
             "Ziheng Sun",
             "Alan Sussman",
             "Douglas Thain",
@@ -1441,9 +1513,9 @@
             "Andrea R. Beccari",
             "Domenico Bonanni",
             "Carmine Talarico",
-            "F. Lughini",
+            "Filippo Lunghini",
             "Jan Martinovič",
-            "Paulo Silva",
+            "Paulo Victor Santos Silva",
             "Stanislav Böhm",
             "Jakub Beránek",
             "Jan Křenek",
@@ -1455,9 +1527,9 @@
             "Thomas Fahringer",
             "Leila T. Alexander",
             "Gerardo Tauriello",
-            "Torsten Schwede",
+            "Torsten F. Schwede",
             "Janani Durairaj",
-            "Andrew Emerson",
+            "Andrew P. J. Emerson",
             "Federico Ficarelli",
             "Sebastian Wingbermühle",
             "E. Lindhal",
@@ -1549,7 +1621,7 @@
             "Zeinab Bakhshi",
             "Zahra Najafabadi Samani",
             "Guillermo Rodríguez-Navas",
-            "Hans Hansson",
+            "Hans Arne Hansson",
             "Radu Prodan"
         ],
         "group_authors": [
@@ -1723,8 +1795,8 @@
             "Daniel S. Katz",
             "Daniel Laney",
             "Ulf Leser",
-            "M. Malawski",
-            "Kshitij Mehta",
+            "Maciej Malawski",
+            "Kshitij R. Mehta",
             "Loïc Pottier",
             "Jonathan Ozik",
             "J. L. Peterson",
@@ -1782,7 +1854,7 @@
             "Rafael Ferreira da Silva",
             "Henri Casanova",
             "Kyle Chard",
-            "Dan Laney",
+            "Daniel Laney",
             "Dong H. Ahn",
             "Shantenu Jha",
             "Carole Goble",
@@ -1793,9 +1865,9 @@
             "İlkay Altıntaş",
             "Yadu Babuji",
             "Rosa M. Badia",
-            "Vivien Bonazzi",
+            "Vivien R. Bonazzi",
             "Tainã Coleman",
-            "Michael R. Crusoe",
+            "Michael Robin Crusoe",
             "Ewa Deelman",
             "Frank Di Natale",
             "Paolo Di Tommaso",
@@ -1803,14 +1875,14 @@
             "Rosa Filgueira",
             "Grigori Fursin",
             "Alex M. Ganose",
-            "Björn Grüning",
+            "Björn Andreas Grüning",
             "Daniel S. Katz",
             "Olga Kuchar",
             "Ana Kupresanin",
             "Bertram Ludäscher",
-            "Ketan Maheshwari",
+            "Ketan C. Maheshwari",
             "Marta Mattoso",
-            "Kshitij Mehta",
+            "Kshitij R. Mehta",
             "Todd Munson",
             "Jonathan Ozik",
             "Tom Peterka",
@@ -1819,7 +1891,7 @@
             "Stian Soiland‐Reyes",
             "Benjamín Tovar",
             "Matteo Turilli",
-            "Thomas Uram",
+            "Thomas D. Uram",
             "Karan Vahi",
             "Michael Wilde",
             "Matthew Wolf",
@@ -1858,7 +1930,7 @@
             "Henri Casanova",
             "Kyle Chard",
             "Tainã Coleman",
-            "Dan Laney",
+            "Daniel Laney",
             "Dong H. Ahn",
             "Shantenu Jha",
             "Dorran Howell",
@@ -1872,7 +1944,7 @@
             "Silvina Caíno‐Lores",
             "S. Callaghan",
             "Frederik Coppens",
-            "Michael R. Crusoe",
+            "Michael Robin Crusoe",
             "K. De",
             "Frank Di Natale",
             "Tu Mai Anh",
@@ -1891,10 +1963,10 @@
             "Ulf Leser",
             "Douglas Lowe",
             "Bertram Ludäscher",
-            "Ketan Maheshwari",
-            "M. Malawski",
+            "Ketan C. Maheshwari",
+            "Maciej Malawski",
             "Rajiv Mayani",
-            "Kshitij Mehta",
+            "Kshitij R. Mehta",
             "André Merzky",
             "Todd Munson",
             "Jonathan Ozik",
@@ -1909,7 +1981,7 @@
             "Alvaro Vidal-Torreira",
             "Wendy Whitcup",
             "Michael Wilde",
-            "Alan Williams",
+            "Alan R Williams",
             "Matthew Wolf",
             "Justin M. Wozniak"
         ],
@@ -1937,7 +2009,7 @@
     {
         "title": "Apollo",
         "year": 2021,
-        "citations": 9,
+        "citations": 10,
         "link": "https://doi.org/10.1145/3468737.3494103",
         "venue": "Proceedings of the 14th IEEE/ACM International Conference on Utility and Cloud Computing",
         "open_access": false,
@@ -1973,6 +2045,28 @@
         ]
     },
     {
+        "title": "Porting Real-World Applications to GPU Clusters: A Celerity and Cronos Case Study",
+        "year": 2021,
+        "citations": 4,
+        "link": "https://doi.org/10.1109/escience51609.2021.00019",
+        "venue": "2021 IEEE 17th International Conference on eScience (eScience)",
+        "open_access": false,
+        "all_authors": [
+            "Philipp Gschwandtner",
+            "R. Kissmann",
+            "David Miles Huber",
+            "Philip Salzmann",
+            "Fabian Knorr",
+            "Peter Thoman",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman",
+            "Philipp Gschwandtner"
+        ]
+    },
+    {
         "title": "ndzip-gpu: efficient lossless compression of scientific floating-point data on GPUs",
         "year": 2021,
         "citations": 4,
@@ -1998,7 +2092,7 @@
         "open_access": true,
         "all_authors": [
             "Philipp Gschwandtner",
-            "Alexander Hirsch",
+            "Alexander M. Hirsch",
             "Peter Thoman",
             "Peter Zangerl",
             "Herbert Jordan",
@@ -2021,7 +2115,7 @@
             "A. Tekin",
             "A.Tuncer Durak",
             "C. Piechurski",
-            "D. Kaliszan",
+            "Damian Kaliszan",
             "F. Aylin Sungur",
             "F. Robertsén",
             "Philipp Gschwandtner"
@@ -2039,7 +2133,7 @@
         "open_access": false,
         "all_authors": [
             "Peter Thoman",
-            "Alexander Hirsch",
+            "Alexander M. Hirsch",
             "Markus Wippler",
             "Robert Hranitzky"
         ],
@@ -2064,31 +2158,9 @@
         ]
     },
     {
-        "title": "Porting Real-World Applications to GPU Clusters: A Celerity and Cronos Case Study",
-        "year": 2021,
-        "citations": 1,
-        "link": "https://doi.org/10.1109/escience51609.2021.00019",
-        "venue": "2021 IEEE 17th International Conference on eScience (eScience)",
-        "open_access": false,
-        "all_authors": [
-            "Philipp Gschwandtner",
-            "R. Kissmann",
-            "David Miles Huber",
-            "Philip Salzmann",
-            "Fabian Knorr",
-            "Peter Thoman",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman",
-            "Philipp Gschwandtner"
-        ]
-    },
-    {
         "title": "AFCL: An Abstract Function Choreography Language for serverless workflow specification",
         "year": 2020,
-        "citations": 51,
+        "citations": 50,
         "link": "https://doi.org/10.1016/j.future.2020.08.012",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -2120,7 +2192,7 @@
     {
         "title": "SYCL-Bench: A Versatile Cross-Platform Benchmark Suite for Heterogeneous Computing",
         "year": 2020,
-        "citations": 24,
+        "citations": 25,
         "link": "https://doi.org/10.1007/978-3-030-57675-2_39",
         "venue": "Lecture notes in computer science",
         "open_access": true,
@@ -2129,7 +2201,7 @@
             "Aksel Alpay",
             "Philip Salzmann",
             "Biagio Cosenza",
-            "Alexander Hirsch",
+            "Alexander M. Hirsch",
             "Nicolai Stawinoga",
             "Peter Thoman",
             "Thomas Fahringer",
@@ -2247,9 +2319,9 @@
             "Thomas Fahringer",
             "Marjan Gušev",
             "Matija Džanko",
-            "Ivana Bilić",
+            "Ivana Gusak Bilić",
             "Christian Esposito",
-            "Torsten Braun"
+            "Torsten Ingo Braun"
         ],
         "group_authors": [
             "Thomas Fahringer"
@@ -2267,9 +2339,9 @@
             "Philipp Gschwandtner",
             "Peter Thoman",
             "Peter Zangerl",
-            "Alexander Hirsch",
+            "Alexander M. Hirsch",
             "Thomas Fahringer",
-            "Thomas Heller",
+            "Thomas C. Heller",
             "Dietmar Fey"
         ],
         "group_authors": [
@@ -2299,11 +2371,11 @@
         "title": "Running on Raygun",
         "year": 2020,
         "citations": 1,
-        "link": "https://openalex.org/W3000754532",
+        "link": "https://doi.org/10.48550/arxiv.2001.09792",
         "venue": "arXiv (Cornell University)",
         "open_access": true,
         "all_authors": [
-            "Alexander Hirsch",
+            "Hirsch, Alexander",
             "Peter Thoman"
         ],
         "group_authors": [
