@@ -83,9 +83,9 @@
             "Juan Aznar-Poveda",
             "Jacek Kitowski",
             "Bartosz Kryza",
-            "Renata Slota",
+            "Słota Renata",
             "Álvaro Vázquez-Rodríguez",
-            "Carlos Giraldo Rodriguez",
+            "Carlos Giraldo-Rodríguez",
             "Fedor Lehocki",
             "Peter Kissa"
         ],
@@ -180,10 +180,10 @@
             "Stefan Pedratscher",
             "Abolfazl Younesi",
             "Miriam Leitner",
-            "Laura Acosta Garcia",
+            "Laura Acosta-Garcia",
             "Thomas Fahringer",
-            "Antonio Javier Garcia Sanchez",
-            "Joan Garcia Haro"
+            "Antonio Javier García Sánchez",
+            "Joan Garcı́a-Haro"
         ],
         "group_authors": [
             "Thomas Fahringer",
@@ -212,10 +212,11 @@
             "Hyunwhan Joe",
             "Hong-Gee Kim",
             "Thomas Fahringer",
-            "Zahra Najafabadi"
+            "Zahra Najafabadi Samani"
         ],
         "group_authors": [
-            "Thomas Fahringer"
+            "Thomas Fahringer",
+            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -256,12 +257,12 @@
         "title": "High-resolution simulations of non-thermal emission from LS 5039",
         "year": 2026,
         "citations": 0,
-        "link": "https://doi.org/10.48550/arxiv.2601.07501",
-        "venue": "arXiv (Cornell University)",
+        "link": "https://doi.org/10.1051/0004-6361/202556701",
+        "venue": "Astronomy and Astrophysics",
         "open_access": true,
         "all_authors": [
             "R. Kissmann",
-            "David Huber",
+            "D. M. HUBER",
             "Philipp Gschwandtner"
         ],
         "group_authors": [
@@ -302,7 +303,7 @@
         "open_access": true,
         "all_authors": [
             "Fabian Margreiter",
-            "Laura Acosta Garcia",
+            "Laura Acosta-Garcia",
             "Juan Aznar-Poveda"
         ],
         "group_authors": [
@@ -332,7 +333,7 @@
     {
         "title": "A terminology for scientific workflow systems",
         "year": 2025,
-        "citations": 18,
+        "citations": 19,
         "link": "https://doi.org/10.1016/j.future.2025.107974",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -429,7 +430,7 @@
     {
         "title": "MOSAIC: Mobility-Oriented Scheduling and Intelligent Resource Allocation for IoT",
         "year": 2025,
-        "citations": 7,
+        "citations": 8,
         "link": "https://doi.org/10.1109/tmc.2025.3640765",
         "venue": "IEEE Transactions on Mobile Computing",
         "open_access": true,
@@ -563,7 +564,7 @@
         "all_authors": [
             "Peter Thoman",
             "Philipp Gschwandtner",
-            "Facundo Molina Heredina",
+            "Facundo Molina Heredia",
             "Thomas Fahringer"
         ],
         "group_authors": [
@@ -582,7 +583,7 @@
         "all_authors": [
             "Mahtab Shahin",
             "Markus Bertl",
-            "Nasim Janatian",
+            "Nasime Janatian",
             "Juan Aznar-Poveda",
             "Syed Attique Shah",
             "Thomas Fahringer",
@@ -600,7 +601,7 @@
         "citations": 2,
         "link": "https://doi.org/10.1109/ipdpsw66978.2025.00162",
         "venue": "IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)",
-        "open_access": false,
+        "open_access": true,
         "all_authors": [
             "Narges Mehran",
             "Zahra Najafabadi Samani",
@@ -696,6 +697,27 @@
         ]
     },
     {
+        "title": "Dynamic Resource Manager for Automating Deployments in the Computing Continuum",
+        "year": 2025,
+        "citations": 0,
+        "link": "https://doi.org/10.1007/978-3-031-90200-0_23",
+        "venue": "Lecture notes in computer science",
+        "open_access": true,
+        "all_authors": [
+            "Zahra Najafabadi Samani",
+            "Matthias Ga",
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda",
+            "Stefan Pedratscher"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Stefan Pedratscher",
+            "Juan Aznar-Poveda",
+            "Zahra Najafabadi-Samani"
+        ]
+    },
+    {
         "title": "A High-Level API for Dynamic Load Balancing in Large-Scale Parameter Sweeps",
         "year": 2025,
         "citations": 0,
@@ -732,6 +754,28 @@
             "Stefan Pedratscher",
             "Juan Aznar-Poveda",
             "Marlon Etheredge"
+        ]
+    },
+    {
+        "title": "Meteorological Insights: Scalable Weather Pattern Mining in Tallinn and Tartu",
+        "year": 2025,
+        "citations": 0,
+        "link": "https://doi.org/10.1007/978-981-96-6938-7_21",
+        "venue": "Lecture notes in networks and systems",
+        "open_access": true,
+        "all_authors": [
+            "Mahtab Shahin",
+            "Tara Ghasempouri",
+            "Saeed Rahimpour",
+            "Juan Aznar-Poveda",
+            "Nasime Janatian",
+            "Thomas Fahringer",
+            "Syed Attique Shah",
+            "Dirk Draheim"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -863,7 +907,7 @@
     {
         "title": "The Role of Force Fields and Water Models in Protein Folding and Unfolding Dynamics",
         "year": 2024,
-        "citations": 42,
+        "citations": 37,
         "link": "https://doi.org/10.1021/acs.jctc.3c01106",
         "venue": "Journal of Chemical Theory and Computation",
         "open_access": true,
@@ -912,7 +956,7 @@
         "year": 2024,
         "citations": 5,
         "link": "https://doi.org/10.1109/cloud62652.2024.00018",
-        "venue": "2024 IEEE 17th International Conference on Cloud Computing (CLOUD)",
+        "venue": "IEEE ... International Conference on Cloud Computing",
         "open_access": false,
         "all_authors": [
             "Stefan Pedratscher",
@@ -922,6 +966,27 @@
         "group_authors": [
             "Thomas Fahringer",
             "Stefan Pedratscher",
+            "Juan Aznar-Poveda"
+        ]
+    },
+    {
+        "title": "Performance of a Distributed Apriori Algorithm Using the Serverless Functions of the Apollo Framework",
+        "year": 2024,
+        "citations": 4,
+        "link": "https://doi.org/10.1007/978-3-031-70595-3_37",
+        "venue": "Lecture notes in networks and systems",
+        "open_access": true,
+        "all_authors": [
+            "Mahtab Shahin",
+            "Syed Attique Shah",
+            "Rahul Sharma",
+            "Tara Ghasempouri",
+            "Juan Aznar-Poveda",
+            "Thomas Fahringer",
+            "Dirk Draheim"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
             "Juan Aznar-Poveda"
         ]
     },
@@ -949,7 +1014,7 @@
         "year": 2024,
         "citations": 3,
         "link": "https://doi.org/10.1109/vtc2024-spring62846.2024.10683082",
-        "venue": "2024 IEEE 99th Vehicular Technology Conference (VTC2024-Spring)",
+        "venue": "IEEE Vehicular Technology Conference",
         "open_access": false,
         "all_authors": [
             "Laura Acosta-Garcia",
@@ -1033,27 +1098,6 @@
         ]
     },
     {
-        "title": "Performance of a Distributed Apriori Algorithm Using the Serverless Functions of the Apollo Framework",
-        "year": 2024,
-        "citations": 1,
-        "link": "https://doi.org/10.1007/978-3-031-70595-3_37",
-        "venue": "Lecture notes in networks and systems",
-        "open_access": false,
-        "all_authors": [
-            "Mahtab Shahin",
-            "Syed Attique Shah",
-            "Rahul Sharma",
-            "Tara Ghasempouri",
-            "Juan Aznar-Poveda",
-            "Thomas Fahringer",
-            "Dirk Draheim"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
-        ]
-    },
-    {
         "title": "Orchestration of Serverless Functions for Scalable Association Rule Mining with Apollo",
         "year": 2024,
         "citations": 1,
@@ -1062,7 +1106,7 @@
         "open_access": true,
         "all_authors": [
             "Mahtab Shahin",
-            "Nasim Janatian",
+            "Nasime Janatian",
             "Juan Aznar-Poveda",
             "Thomas Fahringer",
             "Tara Ghasempouri",
@@ -1072,119 +1116,6 @@
         "group_authors": [
             "Thomas Fahringer",
             "Juan Aznar-Poveda"
-        ]
-    },
-    {
-        "title": "Workflows Community Summit 2024: Future Trends and Challenges in Scientific Workflows",
-        "year": 2024,
-        "citations": 1,
-        "link": "https://doi.org/10.5281/zenodo.13844758",
-        "venue": "arXiv (Cornell University)",
-        "open_access": true,
-        "all_authors": [
-            "Rafael Ferreira da Silva",
-            "Deborah Bard",
-            "Kyle Chard",
-            "Shaun de Witt",
-            "Ian T Foster",
-            "Tom Gibbs",
-            "Carole Goble",
-            "William F. Godoy",
-            "Gustafsson, Johan",
-            "Utz‐Uwe Haus",
-            "Stephen D. Hudson",
-            "Shantenu Jha",
-            "Los, Laila",
-            "Drew Paine",
-            "Frédéric Suter",
-            "Logan T. Ward",
-            "Sean R. Wilkinson",
-            "Marcos Amarís",
-            "Yadu Babuji",
-            "Jonathan Bader",
-            "Riccardo Balin",
-            "Balouek, Daniel",
-            "Sarah Beecroft",
-            "Khalid Belhajjame",
-            "Rajat Bhattarai",
-            "Wesley H. Brewer",
-            "Paul Brunk",
-            "Silvina Caíno‐Lores",
-            "Henri Casanova",
-            "Daniela Cassol",
-            "Jared Coleman",
-            "Tainã Coleman",
-            "Iacopo Colonnelli",
-            "Anderson Andrei Da Silva",
-            "de Oliveira, Daniel",
-            "Pascal J. Elahi",
-            "Elfaramawy, Nour",
-            "Wael R Elwasif",
-            "Brian D. Etz",
-            "Thomas Fahringer",
-            "Ferreira, Wesley",
-            "Rosa Filgueira",
-            "Jacob Fosso Tande",
-            "Luiz M. R. Gadelha Jr.",
-            "Andy Gallo",
-            "Daniel Garijo",
-            "Georgiou, Yiannis",
-            "Philipp Gritsch",
-            "Patricia A. Grubel",
-            "Amal Gueroudji",
-            "Quentin Guilloteau",
-            "Carlo Hamalainen",
-            "R Latorre Enriquez",
-            "Lauren Huet",
-            "Kevin Hunter Kesling",
-            "Paula Iborra",
-            "Shiva Jahangiri",
-            "Jan Janßen",
-            "Jordan, Joe",
-            "Sehrish Kanwal",
-            "Liliane Kunstmann",
-            "Fabian Lehmann",
-            "Ulf Leser",
-            "Chen Li",
-            "Peini Liu",
-            "Jakob Luettgau",
-            "Richard Lupat",
-            "José M. Fernández",
-            "Ketan C. Maheshwari",
-            "Tanu Malik",
-            "Jack D. Marquez",
-            "Motohiko Matsuda",
-            "Doriana Medić",
-            "Somayeh Mohammadi",
-            "Alberto Mulone",
-            "John-Luke Navarro",
-            "Kin Wai Ng",
-            "Klaus Noelp",
-            "Bruno P. Kinoshita",
-            "Ryan Prout",
-            "Michael Robin Crusoe",
-            "Sasko Ristov",
-            "Stefan A. Robila",
-            "Rosendo, Daniel",
-            "Billy Rowell",
-            "Jedrzej Rybicki",
-            "Sanchez, Hector",
-            "Nishant Saurabh",
-            "Sumit Kumar Saurav",
-            "Tom Scogland",
-            "Dinindu Senanayake",
-            "Woong Shin",
-            "Raül Sirvent",
-            "Tyler J. Skluzacek",
-            "Barry Sly-Delgado",
-            "Stian Soiland‐Reyes",
-            "Abel Souza",
-            "Renan Pedra de Souza",
-            "Domenico Talia",
-            "Nathan R. Tallent"
-        ],
-        "group_authors": [
-            "Thomas Fahringer"
         ]
     },
     {
@@ -1201,48 +1132,6 @@
         "group_authors": [
             "Peter Thoman",
             "Philip Salzmann"
-        ]
-    },
-    {
-        "title": "Meteorological Insights: Scalable Weather Pattern Mining in Tallinn and Tartu",
-        "year": 2024,
-        "citations": 0,
-        "link": "https://doi.org/10.36227/techrxiv.172668144.45187613/v1",
-        "venue": "arXiv",
-        "open_access": true,
-        "all_authors": [
-            "Mahtab Shahin",
-            "Tara Ghasempouri",
-            "Juan Aznar-Poveda",
-            "Nasim Janatian",
-            "Thomas Fahringer",
-            "S A Shah",
-            "Dirk Draheim"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
-        ]
-    },
-    {
-        "title": "Dynamic Resource Manager for Automating Deployments in the Computing Continuum",
-        "year": 2024,
-        "citations": 0,
-        "link": "https://doi.org/10.48550/arxiv.2411.16697",
-        "venue": "arXiv (Cornell University)",
-        "open_access": true,
-        "all_authors": [
-            "Zahra Najafabadi Samani",
-            "Matthias Gaßner",
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda",
-            "Stefan Pedratscher"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Stefan Pedratscher",
-            "Juan Aznar-Poveda",
-            "Zahra Najafabadi-Samani"
         ]
     },
     {
@@ -1287,7 +1176,7 @@
     {
         "title": "Workflows Community Summit 2022: A Roadmap Revolution",
         "year": 2023,
-        "citations": 18,
+        "citations": 17,
         "link": "https://doi.org/10.2172/2006942",
         "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
         "open_access": true,
@@ -1319,7 +1208,7 @@
             "Aharon Brodutch",
             "Paul Brunk",
             "Henri Casanova",
-            "Alba Cervera Lierta",
+            "Alba Cervera-Lierta",
             "Justin Chigu",
             "Tainã Coleman",
             "Nick Collier",
@@ -1348,10 +1237,10 @@
             "Samuel Grayson",
             "Patricia A. Grubel",
             "Johan Gustafsson",
-            "Valerie Hayot",
+            "Valérie Hayot‐Sasson",
             "Óscar Hernández",
             "Marcus Hilbrich",
-            "Annmary Justine",
+            "Annmary Justine Koomthanam",
             "I. Laflotte",
             "Fabian Lehmann",
             "André Luckow",
@@ -1359,7 +1248,7 @@
             "Ketan C. Maheshwari",
             "Motohiko Matsuda",
             "Doriana Medić",
-            "Peter Mendygral",
+            "Peter J. Mendygral",
             "Marek T. Michalewicz",
             "Jorji Nonaka",
             "Maciej Pawlik",
@@ -1530,7 +1419,7 @@
         "year": 2023,
         "citations": 3,
         "link": "https://doi.org/10.1109/ipdps54959.2023.00054",
-        "venue": "2023 IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
+        "venue": "Proceedings - IEEE International Parallel and Distributed Processing Symposium",
         "open_access": false,
         "all_authors": [
             "Zahra Najafabadi Samani",
@@ -1678,7 +1567,7 @@
     {
         "title": "The Celerity High-level API: C++20 for Accelerator Clusters",
         "year": 2022,
-        "citations": 8,
+        "citations": 7,
         "link": "https://doi.org/10.1007/s10766-022-00731-8",
         "venue": "International Journal of Parallel Programming",
         "open_access": true,
@@ -1695,9 +1584,26 @@
         ]
     },
     {
+        "title": "Declarative Data Flow in a Graph-Based Distributed Memory Runtime System",
+        "year": 2022,
+        "citations": 6,
+        "link": "https://doi.org/10.1007/s10766-022-00743-4",
+        "venue": "International Journal of Parallel Programming",
+        "open_access": true,
+        "all_authors": [
+            "Fabian Knorr",
+            "Peter Thoman",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman"
+        ]
+    },
+    {
         "title": "Celerity: How (Well) Does the SYCL API Translate to Distributed Clusters?",
         "year": 2022,
-        "citations": 3,
+        "citations": 2,
         "link": "https://doi.org/10.1145/3529538.3530004",
         "venue": "International Workshop on OpenCL",
         "open_access": false,
@@ -1713,27 +1619,10 @@
         ]
     },
     {
-        "title": "Declarative Data Flow in a Graph-Based Distributed Memory Runtime System",
-        "year": 2022,
-        "citations": 2,
-        "link": "https://doi.org/10.1007/s10766-022-00743-4",
-        "venue": "International Journal of Parallel Programming",
-        "open_access": true,
-        "all_authors": [
-            "Fabian Knorr",
-            "Peter Thoman",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman"
-        ]
-    },
-    {
         "title": "User's needs influencing HPC technologies",
         "year": 2022,
         "citations": 0,
-        "link": "https://doi.org/10.5281/zenodo.6483459",
+        "link": "https://doi.org/10.5281/zenodo.6483458",
         "venue": "Zenodo (CERN European Organization for Nuclear Research)",
         "open_access": true,
         "all_authors": [
@@ -1745,6 +1634,20 @@
         ],
         "group_authors": [
             "Philipp Gschwandtner"
+        ]
+    },
+    {
+        "title": "Resource allocation and congestion control in vehicular ad-hoc networks through optimization algorithms and artificial intelligence",
+        "year": 2022,
+        "citations": 0,
+        "link": "https://doi.org/10.31428/10317/11110",
+        "venue": "Digital Repository (Polytechnic University of Cartagena)",
+        "open_access": true,
+        "all_authors": [
+            "Juan Aznar-Poveda"
+        ],
+        "group_authors": [
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -1794,7 +1697,7 @@
         "year": 2021,
         "citations": 31,
         "link": "https://doi.org/10.1109/dcc50243.2021.00018",
-        "venue": "Digital Library of the University of Innsbruck (University of Innsbruck)",
+        "venue": "DCC",
         "open_access": false,
         "all_authors": [
             "Fabian Knorr",
@@ -1811,7 +1714,7 @@
         "year": 2021,
         "citations": 29,
         "link": "https://doi.org/10.1145/3458817.3476224",
-        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+        "venue": "2012 International Conference for High Performance Computing, Networking, Storage and Analysis",
         "open_access": true,
         "all_authors": [
             "Fabian Knorr",
@@ -1902,7 +1805,7 @@
         "title": "Workflows Community Summit: Advancing the State-of-the-art of Scientific Workflows Management Systems Research and Development",
         "year": 2021,
         "citations": 15,
-        "link": "https://doi.org/10.48550/arxiv.2106.05177",
+        "link": "https://doi.org/10.5281/zenodo.4915800",
         "venue": "arXiv (Cornell University)",
         "open_access": true,
         "all_authors": [
@@ -2027,7 +1930,7 @@
     {
         "title": "Porting Real-World Applications to GPU Clusters: A Celerity and Cronos Case Study",
         "year": 2021,
-        "citations": 4,
+        "citations": 3,
         "link": "https://doi.org/10.1109/escience51609.2021.00019",
         "venue": "IEEE International Conference on eScience",
         "open_access": false,
@@ -2044,23 +1947,6 @@
             "Thomas Fahringer",
             "Peter Thoman",
             "Philipp Gschwandtner"
-        ]
-    },
-    {
-        "title": "ndzip-gpu: efficient lossless compression of scientific floating-point data on GPUs",
-        "year": 2021,
-        "citations": 4,
-        "link": "https://doi.org/10.5281/zenodo.7437646",
-        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-        "open_access": true,
-        "all_authors": [
-            "Fabian Knorr",
-            "Peter Thoman",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman"
         ]
     },
     {
@@ -2085,26 +1971,6 @@
         ]
     },
     {
-        "title": "State-of-the-Art and Trends for Computing and Interconnect Network Solutions for HPC and AI",
-        "year": 2021,
-        "citations": 3,
-        "link": "https://doi.org/10.5281/zenodo.5717283",
-        "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-        "open_access": true,
-        "all_authors": [
-            "A. Tekin",
-            "A.Tuncer Durak",
-            "C. Piechurski",
-            "Damian Kaliszan",
-            "F. Aylin Sungur",
-            "F. Robertsén",
-            "Philipp Gschwandtner"
-        ],
-        "group_authors": [
-            "Philipp Gschwandtner"
-        ]
-    },
-    {
         "title": "Optimizing Embedded Industrial Safety Systems Based on Time-of-flight Depth Imaging",
         "year": 2021,
         "citations": 2,
@@ -2124,7 +1990,7 @@
     {
         "title": "Apollo: Modular and Distributed Runtime System for Serverless Function Compositions on Cloud, Edge, and IoT Resources.",
         "year": 2021,
-        "citations": 1,
+        "citations": 0,
         "link": "https://openalex.org/W3175268644",
         "venue": "High-Level Parallel Programming Models and Supportive Environments",
         "open_access": false,
@@ -2140,7 +2006,7 @@
     {
         "title": "AFCL: An Abstract Function Choreography Language for serverless workflow specification",
         "year": 2020,
-        "citations": 50,
+        "citations": 49,
         "link": "https://doi.org/10.1016/j.future.2020.08.012",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -2157,7 +2023,7 @@
     {
         "title": "Evolutionary Multi-Objective Workflow Scheduling for Volatile Resources in the Cloud",
         "year": 2020,
-        "citations": 49,
+        "citations": 48,
         "link": "https://doi.org/10.1109/tcc.2020.2993250",
         "venue": "IEEE Transactions on Cloud Computing",
         "open_access": true,
