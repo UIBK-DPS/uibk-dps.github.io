@@ -262,7 +262,7 @@
         "open_access": true,
         "all_authors": [
             "R. Kissmann",
-            "D. M. HUBER",
+            "D. Huber",
             "Philipp Gschwandtner"
         ],
         "group_authors": [
@@ -281,7 +281,7 @@
             "Philipp Haim",
             "David Föger",
             "Torsten A. Enßlin",
-            "Philipp G. Frank",
+            "Frank, Philipp",
             "Philipp Gschwandtner",
             "Dominik Jüstel",
             "Philipp Mertsch",
@@ -333,7 +333,7 @@
     {
         "title": "A terminology for scientific workflow systems",
         "year": 2025,
-        "citations": 19,
+        "citations": 20,
         "link": "https://doi.org/10.1016/j.future.2025.107974",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -970,6 +970,25 @@
         ]
     },
     {
+        "title": "Proactive Adaptation of Data Rate in Mobile LoRa-Based IoT Devices Using Machine Learning",
+        "year": 2024,
+        "citations": 4,
+        "link": "https://doi.org/10.1109/vtc2024-spring62846.2024.10683082",
+        "venue": "IEEE Vehicular Technology Conference",
+        "open_access": false,
+        "all_authors": [
+            "Laura Acosta-Garcia",
+            "Juan Aznar-Poveda",
+            "Antonio-Javier García-Sánchez",
+            "Joan Garcı́a-Haro",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
+        ]
+    },
+    {
         "title": "Performance of a Distributed Apriori Algorithm Using the Serverless Functions of the Apollo Framework",
         "year": 2024,
         "citations": 4,
@@ -1007,25 +1026,6 @@
             "Thomas Fahringer",
             "Peter Thoman",
             "Philip Salzmann"
-        ]
-    },
-    {
-        "title": "Proactive Adaptation of Data Rate in Mobile LoRa-Based IoT Devices Using Machine Learning",
-        "year": 2024,
-        "citations": 3,
-        "link": "https://doi.org/10.1109/vtc2024-spring62846.2024.10683082",
-        "venue": "IEEE Vehicular Technology Conference",
-        "open_access": false,
-        "all_authors": [
-            "Laura Acosta-Garcia",
-            "Juan Aznar-Poveda",
-            "Antonio-Javier García-Sánchez",
-            "Joan Garcı́a-Haro",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -1068,7 +1068,7 @@
             "Jan Martinovič",
             "Martin Golasowski",
             "Paulo Victor Santos Silva",
-            "Stanislav Böhm",
+            "A. Bohm",
             "Jakub Beránek",
             "Jan Křenek",
             "Branislav Jansı́k",
@@ -1268,7 +1268,7 @@
             "Christine M. Simpson",
             "Raül Sirvent",
             "Tyler J. Skluzacek",
-            "Stian Soiland- Reyes",
+            "Stian Soiland‐Reyes",
             "Renan Santos Souza",
             "Sreenivas Rangan Sukumar",
             "Ziheng Sun",
@@ -1289,7 +1289,7 @@
     {
         "title": "An Asynchronous Dataflow-Driven Execution Model For Distributed Accelerator Computing",
         "year": 2023,
-        "citations": 14,
+        "citations": 16,
         "link": "https://doi.org/10.1109/ccgrid57682.2023.00018",
         "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)",
         "open_access": false,
@@ -1385,7 +1385,7 @@
             "Filippo Lunghini",
             "Jan Martinovič",
             "Paulo Victor Santos Silva",
-            "Stanislav Böhm",
+            "A. Bohm",
             "Jakub Beránek",
             "Jan Křenek",
             "Branislav Jansı́k",
@@ -1514,6 +1514,23 @@
         ]
     },
     {
+        "title": "Approximate reinforcement learning to control beaconing congestion in distributed networks",
+        "year": 2022,
+        "citations": 14,
+        "link": "https://doi.org/10.1038/s41598-021-04123-9",
+        "venue": "Scientific Reports",
+        "open_access": true,
+        "all_authors": [
+            "Juan Aznar-Poveda",
+            "Antonio-Javier García-Sánchez",
+            "Esteban Egea-López",
+            "Joan Garcı́a-Haro"
+        ],
+        "group_authors": [
+            "Juan Aznar-Poveda"
+        ]
+    },
+    {
         "title": "M2FaaS: Transparent and fault tolerant FaaSification of Node.js monolith code blocks",
         "year": 2022,
         "citations": 13,
@@ -1528,23 +1545,6 @@
         "group_authors": [
             "Thomas Fahringer",
             "Stefan Pedratscher"
-        ]
-    },
-    {
-        "title": "Approximate reinforcement learning to control beaconing congestion in distributed networks",
-        "year": 2022,
-        "citations": 13,
-        "link": "https://doi.org/10.1038/s41598-021-04123-9",
-        "venue": "Scientific Reports",
-        "open_access": true,
-        "all_authors": [
-            "Juan Aznar-Poveda",
-            "Antonio-Javier García-Sánchez",
-            "Esteban Egea-López",
-            "Joan Garcı́a-Haro"
-        ],
-        "group_authors": [
-            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -1787,7 +1787,7 @@
     {
         "title": "xAFCL: Run Scalable Function Choreographies Across Multiple FaaS Systems",
         "year": 2021,
-        "citations": 19,
+        "citations": 25,
         "link": "https://doi.org/10.1109/tsc.2021.3128137",
         "venue": "IEEE Transactions on Services Computing",
         "open_access": false,
@@ -1835,7 +1835,7 @@
             "Thomas Fahringer",
             "Anne Fouilloux",
             "Grigori Fursin",
-            "Alban Gaignard",
+            "Alban Gaignard A",
             "Alex M. Ganose",
             "Daniel Garijo",
             "Sandra Gesing",
@@ -2006,7 +2006,7 @@
     {
         "title": "AFCL: An Abstract Function Choreography Language for serverless workflow specification",
         "year": 2020,
-        "citations": 49,
+        "citations": 50,
         "link": "https://doi.org/10.1016/j.future.2020.08.012",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -2174,6 +2174,23 @@
         ]
     },
     {
+        "title": "Datasets for Benchmarking Floating-Point Compressors",
+        "year": 2020,
+        "citations": 2,
+        "link": "https://doi.org/10.48550/arxiv.2011.02849",
+        "venue": "arXiv (Cornell University)",
+        "open_access": true,
+        "all_authors": [
+            "Fabian Knorr",
+            "Peter Thoman",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman"
+        ]
+    },
+    {
         "title": "The allscale framework architecture",
         "year": 2020,
         "citations": 1,
@@ -2194,23 +2211,6 @@
             "Thomas Fahringer",
             "Peter Thoman",
             "Philipp Gschwandtner"
-        ]
-    },
-    {
-        "title": "Datasets for Benchmarking Floating-Point Compressors",
-        "year": 2020,
-        "citations": 1,
-        "link": "https://doi.org/10.48550/arxiv.2011.02849",
-        "venue": "arXiv (Cornell University)",
-        "open_access": true,
-        "all_authors": [
-            "Fabian Knorr",
-            "Peter Thoman",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman"
         ]
     },
     {
