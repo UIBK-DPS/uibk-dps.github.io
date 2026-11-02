@@ -7,13 +7,13 @@
         "venue": "IEEE Access",
         "open_access": true,
         "all_authors": [
-            "Laura Acosta-García",
+            "Laura Acosta-Garcia",
             "Juan Aznar-Poveda",
             "Fabian Margreiter",
             "Antonio-Javier García-Sánchez",
             "Joan Garcı́a-Haro",
             "Thomas Fahringer",
-            "José Lorente López",
+            "José Lorente-López",
             "José‐Víctor Rodríguez"
         ],
         "group_authors": [
@@ -262,7 +262,7 @@
         "open_access": true,
         "all_authors": [
             "R. Kissmann",
-            "D. Huber",
+            "David Miles Huber",
             "Philipp Gschwandtner"
         ],
         "group_authors": [
@@ -353,7 +353,7 @@
             "Daniel S. Katz",
             "Johannes Köster",
             "Ulf Leser",
-            "Kshitij Mehta",
+            "Kshitij R. Mehta",
             "Hilary Oliver",
             "J. L. Peterson",
             "Giovanni Pizzi",
@@ -540,7 +540,7 @@
         "year": 2025,
         "citations": 3,
         "link": "https://doi.org/10.1145/3672608.3707986",
-        "venue": "ACM/SIGAPP Symposium on Applied Computing (SAC)",
+        "venue": "ACM Symposium on Applied Computing",
         "open_access": true,
         "all_authors": [
             "Narges Mehran",
@@ -626,7 +626,7 @@
         "year": 2025,
         "citations": 2,
         "link": "https://doi.org/10.1109/ipdpsw66978.2025.00162",
-        "venue": "IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)",
+        "venue": "IEEE International Symposium on Parallel & Distributed Processing, Workshops and Phd Forum",
         "open_access": true,
         "all_authors": [
             "Narges Mehran",
@@ -844,7 +844,7 @@
         "year": 2025,
         "citations": 0,
         "link": "https://doi.org/10.1145/3731125.3731126",
-        "venue": "Proceedings of the 13th International Workshop on OpenCL and SYCL",
+        "venue": "International Workshop on OpenCL",
         "open_access": false,
         "all_authors": [
             "Peter Thoman",
@@ -937,7 +937,7 @@
         "year": 2024,
         "citations": 11,
         "link": "https://doi.org/10.1145/3648115.3648120",
-        "venue": "Proceedings of the 12th International Workshop on OpenCL and SYCL",
+        "venue": "International Workshop on OpenCL",
         "open_access": true,
         "all_authors": [
             "Luigi Crisci",
@@ -1033,7 +1033,7 @@
         "year": 2024,
         "citations": 3,
         "link": "https://doi.org/10.1145/3648115.3648136",
-        "venue": "Digital Library of the University of Innsbruck (University of Innsbruck)",
+        "venue": "International Workshop on OpenCL",
         "open_access": true,
         "all_authors": [
             "Peter Thoman",
@@ -1291,7 +1291,7 @@
         "year": 2023,
         "citations": 16,
         "link": "https://doi.org/10.1109/ccgrid57682.2023.00018",
-        "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)",
+        "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)",
         "open_access": false,
         "all_authors": [
             "Philip Salzmann",
@@ -1419,7 +1419,7 @@
         "year": 2023,
         "citations": 3,
         "link": "https://doi.org/10.1109/ipdps54959.2023.00054",
-        "venue": "Proceedings - IEEE International Parallel and Distributed Processing Symposium",
+        "venue": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
         "open_access": false,
         "all_authors": [
             "Zahra Najafabadi Samani",
@@ -1436,7 +1436,7 @@
         "year": 2023,
         "citations": 1,
         "link": "https://doi.org/10.1145/3624062.3624261",
-        "venue": "Virtual Community of Pathological Anatomy (University of Castilla La Mancha)",
+        "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
         "open_access": true,
         "all_authors": [
             "Lorenzo Carpentieri",
@@ -1679,7 +1679,7 @@
             "Daniel Laney",
             "Ulf Leser",
             "Maciej Malawski",
-            "Kshitij Mehta",
+            "Kshitij R. Mehta",
             "Loïc Pottier",
             "Jonathan Ozik",
             "J. L. Peterson",
@@ -1695,7 +1695,7 @@
     {
         "title": "ndzip: A High-Throughput Parallel Lossless Compressor for Scientific Data",
         "year": 2021,
-        "citations": 31,
+        "citations": 32,
         "link": "https://doi.org/10.1109/dcc50243.2021.00018",
         "venue": "DCC",
         "open_access": false,
@@ -1714,7 +1714,7 @@
         "year": 2021,
         "citations": 29,
         "link": "https://doi.org/10.1145/3458817.3476224",
-        "venue": "2012 International Conference for High Performance Computing, Networking, Storage and Analysis",
+        "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
         "open_access": true,
         "all_authors": [
             "Fabian Knorr",
@@ -1765,7 +1765,7 @@
             "Bertram Ludäscher",
             "Ketan C. Maheshwari",
             "Marta Mattoso",
-            "Kshitij Mehta",
+            "Kshitij R. Mehta",
             "Todd Munson",
             "Jonathan Ozik",
             "Tom Peterka",
@@ -1849,7 +1849,7 @@
             "Ketan C. Maheshwari",
             "Maciej Malawski",
             "Rajiv Mayani",
-            "Kshitij Mehta",
+            "Kshitij R. Mehta",
             "André Merzky",
             "Todd Munson",
             "Jonathan Ozik",
