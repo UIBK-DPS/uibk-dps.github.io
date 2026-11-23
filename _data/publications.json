@@ -2,7 +2,7 @@
     {
         "title": "FAST-LoRa: An Efficient Simulation Framework for Evaluating LoRaWAN Networks and Transmission Parameter Strategies",
         "year": 2026,
-        "citations": 5,
+        "citations": 8,
         "link": "https://doi.org/10.1109/access.2026.3669347",
         "venue": "IEEE Access",
         "open_access": true,
@@ -169,7 +169,7 @@
         "citations": 0,
         "link": "https://doi.org/10.1109/dcoss-iot69657.2026.00029",
         "venue": "International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
-        "open_access": true,
+        "open_access": false,
         "all_authors": [
             "Marlon Etheredge",
             "Juan Aznar-Poveda",
@@ -190,7 +190,7 @@
         "citations": 0,
         "link": "https://doi.org/10.1109/dcoss-iot69657.2026.00042",
         "venue": "International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
-        "open_access": true,
+        "open_access": false,
         "all_authors": [
             "Juan Aznar-Poveda",
             "Stefan Pedratscher",
@@ -351,7 +351,7 @@
     {
         "title": "A terminology for scientific workflow systems",
         "year": 2025,
-        "citations": 34,
+        "citations": 54,
         "link": "https://doi.org/10.1016/j.future.2025.107974",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -390,7 +390,7 @@
     {
         "title": "HealthCare 5.0: An industry 5.0 perspective for next-generation medical systems with synergistic integration of IoT, AI, and 6G",
         "year": 2025,
-        "citations": 24,
+        "citations": 35,
         "link": "https://doi.org/10.1016/j.iot.2025.101815",
         "venue": "Internet of Things",
         "open_access": true,
@@ -428,7 +428,7 @@
     {
         "title": "ADRL: A reconfigurable energy-efficient transmission policy for mobile LoRa devices based on reinforcement learning",
         "year": 2025,
-        "citations": 13,
+        "citations": 14,
         "link": "https://doi.org/10.1016/j.iot.2025.101577",
         "venue": "Internet of Things",
         "open_access": true,
@@ -466,7 +466,7 @@
     {
         "title": "STREAMLINE: Dynamic and Resource-Efficient Auto-Tuning of Stream Processing Data Pipeline Ensembles",
         "year": 2025,
-        "citations": 6,
+        "citations": 7,
         "link": "https://doi.org/10.1016/j.iot.2025.101731",
         "venue": "Internet of Things",
         "open_access": true,
@@ -490,9 +490,28 @@
         ]
     },
     {
+        "title": "Towards Smarter Maritime Security: Apriori Algorithm Optimization in Serverless Environments",
+        "year": 2025,
+        "citations": 6,
+        "link": "https://doi.org/10.1016/j.procs.2025.03.059",
+        "venue": "Procedia Computer Science",
+        "open_access": true,
+        "all_authors": [
+            "Mahtab Shahin",
+            "Saeed Rahimpour",
+            "Tara Ghasempouri",
+            "Sanja I. Bauk",
+            "Thomas Fahringer",
+            "Dirk Draheim"
+        ],
+        "group_authors": [
+            "Thomas Fahringer"
+        ]
+    },
+    {
         "title": "DatApollo: Orchestration of Serverless Functions for Scalable Data Mining",
         "year": 2025,
-        "citations": 5,
+        "citations": 6,
         "link": "https://doi.org/10.1109/access.2025.3591712",
         "venue": "IEEE Access",
         "open_access": true,
@@ -512,46 +531,9 @@
         ]
     },
     {
-        "title": "Towards Smarter Maritime Security: Apriori Algorithm Optimization in Serverless Environments",
-        "year": 2025,
-        "citations": 5,
-        "link": "https://doi.org/10.1016/j.procs.2025.03.059",
-        "venue": "Procedia Computer Science",
-        "open_access": true,
-        "all_authors": [
-            "Mahtab Shahin",
-            "Saeed Rahimpour",
-            "Tara Ghasempouri",
-            "Sanja I. Bauk",
-            "Thomas Fahringer",
-            "Dirk Draheim"
-        ],
-        "group_authors": [
-            "Thomas Fahringer"
-        ]
-    },
-    {
-        "title": "FLARE: Adaptive Multi-Dimensional Reputation for Robust Client Reliability in Federated Learning",
-        "year": 2025,
-        "citations": 5,
-        "link": "https://doi.org/10.48550/arxiv.2511.14715",
-        "venue": "arXiv (Cornell University)",
-        "open_access": true,
-        "all_authors": [
-            "Younesi, Abolfazl",
-            "Kiss, Leon",
-            "Samani, Zahra Najafabadi",
-            "Poveda, Juan Aznar",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer"
-        ]
-    },
-    {
         "title": "SmartKV: A cost-effective and low-latency geo-distributed key-value store for the computing continuum",
         "year": 2025,
-        "citations": 4,
+        "citations": 5,
         "link": "https://doi.org/10.1016/j.future.2025.107857",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -570,6 +552,45 @@
             "Juan Aznar-Poveda",
             "Marlon Etheredge",
             "Zahra Najafabadi-Samani"
+        ]
+    },
+    {
+        "title": "Celerity-RSim: Porting Light Propagation Simulation to Accelerator Clusters Using a High-Level API",
+        "year": 2025,
+        "citations": 5,
+        "link": "https://doi.org/10.1007/s10766-025-00787-2",
+        "venue": "International Journal of Parallel Programming",
+        "open_access": true,
+        "all_authors": [
+            "Peter Thoman",
+            "Philipp Gschwandtner",
+            "Facundo Molina Heredia",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman",
+            "Philipp Gschwandtner"
+        ]
+    },
+    {
+        "title": "Toward Heterogeneous, Distributed, and Energy-Efficient Computing with SYCL",
+        "year": 2025,
+        "citations": 4,
+        "link": "https://doi.org/10.48550/arxiv.2505.06022",
+        "venue": "arXiv (Cornell University)",
+        "open_access": true,
+        "all_authors": [
+            "Biagio Cosenza",
+            "Lorenzo Carpentieri",
+            "Kaijie Fan",
+            "Marco D’Antonio",
+            "Peter Thoman",
+            "Philip Salzmann"
+        ],
+        "group_authors": [
+            "Peter Thoman",
+            "Philip Salzmann"
         ]
     },
     {
@@ -599,25 +620,6 @@
         ]
     },
     {
-        "title": "Celerity-RSim: Porting Light Propagation Simulation to Accelerator Clusters Using a High-Level API",
-        "year": 2025,
-        "citations": 3,
-        "link": "https://doi.org/10.1007/s10766-025-00787-2",
-        "venue": "International Journal of Parallel Programming",
-        "open_access": true,
-        "all_authors": [
-            "Peter Thoman",
-            "Philipp Gschwandtner",
-            "Facundo Molina Heredia",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman",
-            "Philipp Gschwandtner"
-        ]
-    },
-    {
         "title": "ScaleIP: A hybrid autoscaling of VoIP services based on deep reinforcement learning",
         "year": 2025,
         "citations": 3,
@@ -636,26 +638,6 @@
             "Thomas Fahringer",
             "Juan Aznar-Poveda",
             "Zahra Najafabadi-Samani"
-        ]
-    },
-    {
-        "title": "Toward Heterogeneous, Distributed, and Energy-Efficient Computing with SYCL",
-        "year": 2025,
-        "citations": 3,
-        "link": "https://doi.org/10.48550/arxiv.2505.06022",
-        "venue": "arXiv (Cornell University)",
-        "open_access": true,
-        "all_authors": [
-            "Biagio Cosenza",
-            "Lorenzo Carpentieri",
-            "Kaijie Fan",
-            "Marco D’Antonio",
-            "Peter Thoman",
-            "Philip Salzmann"
-        ],
-        "group_authors": [
-            "Peter Thoman",
-            "Philip Salzmann"
         ]
     },
     {
@@ -678,6 +660,27 @@
         ]
     },
     {
+        "title": "Nyx: A Fault-Tolerant Fully Distributed Message Queue for the IoT-Edge-Cloud Continuum",
+        "year": 2025,
+        "citations": 2,
+        "link": "https://doi.org/10.1109/dcoss-iot65416.2025.00154",
+        "venue": "International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
+        "open_access": false,
+        "all_authors": [
+            "Juan Aznar-Poveda",
+            "Marlon Etheredge",
+            "Stefan Pedratscher",
+            "Patrick Künig",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Stefan Pedratscher",
+            "Juan Aznar-Poveda",
+            "Marlon Etheredge"
+        ]
+    },
+    {
         "title": "Concurrent Scheduling of High-Level Parallel Programs on Multi-GPU Systems",
         "year": 2025,
         "citations": 2,
@@ -694,6 +697,23 @@
             "Thomas Fahringer",
             "Peter Thoman",
             "Philip Salzmann"
+        ]
+    },
+    {
+        "title": "Achieving a deeper understanding of user-related influences on artificial lighting energy demand using high-performance computing",
+        "year": 2025,
+        "citations": 2,
+        "link": "https://doi.org/10.13124/9788860462022_46",
+        "venue": "Libera Università di Bolzano",
+        "open_access": true,
+        "all_authors": [
+            "Sascha Hammes",
+            "Johannes Weninger",
+            "Philipp Gschwandtner",
+            "Philipp Zech"
+        ],
+        "group_authors": [
+            "Philipp Gschwandtner"
         ]
     },
     {
@@ -730,27 +750,6 @@
             "Thomas Fahringer",
             "Peter Thoman",
             "Philip Salzmann"
-        ]
-    },
-    {
-        "title": "Nyx: A Fault-Tolerant Fully Distributed Message Queue for the IoT-Edge-Cloud Continuum",
-        "year": 2025,
-        "citations": 1,
-        "link": "https://doi.org/10.1109/dcoss-iot65416.2025.00154",
-        "venue": "International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT)",
-        "open_access": false,
-        "all_authors": [
-            "Juan Aznar-Poveda",
-            "Marlon Etheredge",
-            "Stefan Pedratscher",
-            "Patrick Künig",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Stefan Pedratscher",
-            "Juan Aznar-Poveda",
-            "Marlon Etheredge"
         ]
     },
     {
@@ -808,6 +807,24 @@
         ],
         "group_authors": [
             "Philipp Gschwandtner"
+        ]
+    },
+    {
+        "title": "Machine-Learning-Based Urban Path Loss Prediction at 900 MHz: Principal Component Analysis, Clustering, Feature Importance and Regression",
+        "year": 2025,
+        "citations": 1,
+        "link": "https://doi.org/10.1109/ojap.2025.3629578",
+        "venue": "IEEE Open Journal of Antennas and Propagation",
+        "open_access": true,
+        "all_authors": [
+            "José Lorente-López",
+            "Ignacio Rodríguez‐Rodríguez",
+            "José‐Víctor Rodríguez",
+            "Jose María Molina García-Pardo",
+            "Juan Aznar-Poveda"
+        ],
+        "group_authors": [
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -906,24 +923,6 @@
         ]
     },
     {
-        "title": "Machine-Learning-Based Urban Path Loss Prediction at 900 MHz: Principal Component Analysis, Clustering, Feature Importance and Regression",
-        "year": 2025,
-        "citations": 0,
-        "link": "https://doi.org/10.1109/ojap.2025.3629578",
-        "venue": "IEEE Open Journal of Antennas and Propagation",
-        "open_access": true,
-        "all_authors": [
-            "José Lorente-López",
-            "Ignacio Rodríguez‐Rodríguez",
-            "José‐Víctor Rodríguez",
-            "Jose María Molina García-Pardo",
-            "Juan Aznar-Poveda"
-        ],
-        "group_authors": [
-            "Juan Aznar-Poveda"
-        ]
-    },
-    {
         "title": "Energy-aware Prediction-based Scheduling of Dataflow Processing on the Cloud, Fog, and Edge",
         "year": 2025,
         "citations": 0,
@@ -943,7 +942,7 @@
     {
         "title": "The Role of Force Fields and Water Models in Protein Folding and Unfolding Dynamics",
         "year": 2024,
-        "citations": 43,
+        "citations": 46,
         "link": "https://doi.org/10.1021/acs.jctc.3c01106",
         "venue": "Journal of Chemical Theory and Computation",
         "open_access": true,
@@ -971,7 +970,7 @@
     {
         "title": "Workflows Community Summit 2024: Future Trends and Challenges in Scientific Workflows",
         "year": 2024,
-        "citations": 33,
+        "citations": 41,
         "link": "https://doi.org/10.2172/2474744",
         "venue": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
         "open_access": true,
@@ -1084,7 +1083,7 @@
     {
         "title": "SYCL-Bench 2020: Benchmarking SYCL 2020 on AMD, Intel, and NVIDIA GPUs",
         "year": 2024,
-        "citations": 14,
+        "citations": 20,
         "link": "https://doi.org/10.1145/3648115.3648120",
         "venue": "International Workshop on OpenCL",
         "open_access": true,
@@ -1101,28 +1100,9 @@
         ]
     },
     {
-        "title": "Proactive Adaptation of Data Rate in Mobile LoRa-Based IoT Devices Using Machine Learning",
-        "year": 2024,
-        "citations": 7,
-        "link": "https://doi.org/10.1109/vtc2024-spring62846.2024.10683082",
-        "venue": "IEEE Vehicular Technology Conference",
-        "open_access": false,
-        "all_authors": [
-            "Laura Acosta-Garcia",
-            "Juan Aznar-Poveda",
-            "Antonio-Javier García-Sánchez",
-            "Joan García-Haro",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
-        ]
-    },
-    {
         "title": "Performance of a Distributed Apriori Algorithm Using the Serverless Functions of the Apollo Framework",
         "year": 2024,
-        "citations": 6,
+        "citations": 9,
         "link": "https://doi.org/10.1007/978-3-031-70595-3_37",
         "venue": "Lecture notes in networks and systems",
         "open_access": true,
@@ -1141,9 +1121,62 @@
         ]
     },
     {
+        "title": "SimSYCL: A SYCL Implementation Targeting Development, Debugging, Simulation and Conformance",
+        "year": 2024,
+        "citations": 9,
+        "link": "https://doi.org/10.1145/3648115.3648136",
+        "venue": "International Workshop on OpenCL",
+        "open_access": true,
+        "all_authors": [
+            "Peter Thoman",
+            "Fabian Knorr",
+            "Luigi Crisci"
+        ],
+        "group_authors": [
+            "Peter Thoman"
+        ]
+    },
+    {
+        "title": "Proactive Adaptation of Data Rate in Mobile LoRa-Based IoT Devices Using Machine Learning",
+        "year": 2024,
+        "citations": 8,
+        "link": "https://doi.org/10.1109/vtc2024-spring62846.2024.10683082",
+        "venue": "IEEE Vehicular Technology Conference",
+        "open_access": false,
+        "all_authors": [
+            "Laura Acosta-Garcia",
+            "Juan Aznar-Poveda",
+            "Antonio-Javier García-Sánchez",
+            "Joan García-Haro",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
+        ]
+    },
+    {
+        "title": "Dynamic Workflow Scheduling in the Edge-Cloud Continuum: Optimizing Runtimes Under Budget Constraints",
+        "year": 2024,
+        "citations": 7,
+        "link": "https://doi.org/10.1109/cloud62652.2024.00018",
+        "venue": "IEEE ... International Conference on Cloud Computing",
+        "open_access": false,
+        "all_authors": [
+            "Stefan Pedratscher",
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Stefan Pedratscher",
+            "Juan Aznar-Poveda"
+        ]
+    },
+    {
         "title": "Automatic Discovery of Collective Communication Patterns in Parallelized Task Graphs",
         "year": 2024,
-        "citations": 5,
+        "citations": 6,
         "link": "https://doi.org/10.1007/s10766-024-00767-y",
         "venue": "International Journal of Parallel Programming",
         "open_access": true,
@@ -1160,37 +1193,40 @@
         ]
     },
     {
-        "title": "Dynamic Workflow Scheduling in the Edge-Cloud Continuum: Optimizing Runtimes Under Budget Constraints",
+        "title": "Balancing Tracking Granularity and Parallelism in Many-Task Systems: The Horizons Approach",
         "year": 2024,
-        "citations": 5,
-        "link": "https://doi.org/10.1109/cloud62652.2024.00018",
-        "venue": "IEEE ... International Conference on Cloud Computing",
-        "open_access": false,
-        "all_authors": [
-            "Stefan Pedratscher",
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Stefan Pedratscher",
-            "Juan Aznar-Poveda"
-        ]
-    },
-    {
-        "title": "SimSYCL: A SYCL Implementation Targeting Development, Debugging, Simulation and Conformance",
-        "year": 2024,
-        "citations": 5,
-        "link": "https://doi.org/10.1145/3648115.3648136",
-        "venue": "International Workshop on OpenCL",
+        "citations": 3,
+        "link": "https://doi.org/10.1007/s42979-024-02749-w",
+        "venue": "SN Computer Science",
         "open_access": true,
         "all_authors": [
             "Peter Thoman",
-            "Fabian Knorr",
-            "Luigi Crisci"
+            "Philip Salzmann"
         ],
         "group_authors": [
-            "Peter Thoman"
+            "Peter Thoman",
+            "Philip Salzmann"
+        ]
+    },
+    {
+        "title": "Orchestration of Serverless Functions for Scalable Association Rule Mining with Apollo",
+        "year": 2024,
+        "citations": 2,
+        "link": "https://doi.org/10.36227/techrxiv.172101151.16682756/v1",
+        "venue": "TechRxiv",
+        "open_access": true,
+        "all_authors": [
+            "Mahtab Shahin",
+            "Nasime Janatian",
+            "Juan Aznar-Poveda",
+            "Thomas Fahringer",
+            "Tara Ghasempouri",
+            "Syed Attique Shah",
+            "Dirk Draheim"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Juan Aznar-Poveda"
         ]
     },
     {
@@ -1247,48 +1283,11 @@
         ]
     },
     {
-        "title": "Orchestration of Serverless Functions for Scalable Association Rule Mining with Apollo",
-        "year": 2024,
-        "citations": 1,
-        "link": "https://doi.org/10.36227/techrxiv.172101151.16682756/v1",
-        "venue": "arXiv",
-        "open_access": true,
-        "all_authors": [
-            "Mahtab Shahin",
-            "Nasime Janatian",
-            "Juan Aznar-Poveda",
-            "Thomas Fahringer",
-            "Tara Ghasempouri",
-            "Syed Attique Shah",
-            "Dirk Draheim"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Juan Aznar-Poveda"
-        ]
-    },
-    {
-        "title": "Balancing Tracking Granularity and Parallelism in Many-Task Systems: The Horizons Approach",
-        "year": 2024,
-        "citations": 1,
-        "link": "https://doi.org/10.1007/s42979-024-02749-w",
-        "venue": "SN Computer Science",
-        "open_access": true,
-        "all_authors": [
-            "Peter Thoman",
-            "Philip Salzmann"
-        ],
-        "group_authors": [
-            "Peter Thoman",
-            "Philip Salzmann"
-        ]
-    },
-    {
         "title": "Scalable Data Mining Using a Distributed Apriori Algorithm with Apollo Framework",
         "year": 2024,
         "citations": 0,
         "link": "https://doi.org/10.36227/techrxiv.172412679.91614191/v1",
-        "venue": "arXiv",
+        "venue": "TechRxiv",
         "open_access": true,
         "all_authors": [
             "Mahtab Shahin",
@@ -1306,7 +1305,7 @@
     {
         "title": "Workflows Community Summit 2022: A Roadmap Revolution",
         "year": 2023,
-        "citations": 34,
+        "citations": 41,
         "link": "https://doi.org/10.5281/zenodo.7750670",
         "venue": "Research Explorer (The University of Manchester)",
         "open_access": true,
@@ -1419,7 +1418,7 @@
     {
         "title": "Dynamic transmission policy for enhancing LoRa network performance: A deep reinforcement learning approach",
         "year": 2023,
-        "citations": 24,
+        "citations": 26,
         "link": "https://doi.org/10.1016/j.iot.2023.100974",
         "venue": "Internet of Things",
         "open_access": true,
@@ -1436,31 +1435,12 @@
         ]
     },
     {
-        "title": "Incremental Multilayer Resource Partitioning for Application Placement in Dynamic Fog",
-        "year": 2023,
-        "citations": 21,
-        "link": "https://doi.org/10.1109/tpds.2023.3262695",
-        "venue": "IEEE Transactions on Parallel and Distributed Systems",
-        "open_access": true,
-        "all_authors": [
-            "Zahra Najafabadi Samani",
-            "Narges Mehran",
-            "Dragi Kimovski",
-            "Shajulin Benedict",
-            "Nishant Saurabh",
-            "Radu Prodan"
-        ],
-        "group_authors": [
-            "Zahra Najafabadi-Samani"
-        ]
-    },
-    {
         "title": "An Asynchronous Dataflow-Driven Execution Model For Distributed Accelerator Computing",
         "year": 2023,
-        "citations": 18,
+        "citations": 24,
         "link": "https://doi.org/10.1109/ccgrid57682.2023.00018",
         "venue": "IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid)",
-        "open_access": false,
+        "open_access": true,
         "all_authors": [
             "Philip Salzmann",
             "Fabian Knorr",
@@ -1477,25 +1457,28 @@
         ]
     },
     {
-        "title": "High-resolution simulations of LS 5039",
+        "title": "Incremental Multilayer Resource Partitioning for Application Placement in Dynamic Fog",
         "year": 2023,
-        "citations": 7,
-        "link": "https://doi.org/10.1051/0004-6361/202345934",
-        "venue": "Astronomy and Astrophysics",
+        "citations": 23,
+        "link": "https://doi.org/10.1109/tpds.2023.3262695",
+        "venue": "IEEE Transactions on Parallel and Distributed Systems",
         "open_access": true,
         "all_authors": [
-            "R. Kissmann",
-            "D. Huber",
-            "Philipp Gschwandtner"
+            "Zahra Najafabadi Samani",
+            "Narges Mehran",
+            "Dragi Kimovski",
+            "Shajulin Benedict",
+            "Nishant Saurabh",
+            "Radu Prodan"
         ],
         "group_authors": [
-            "Philipp Gschwandtner"
+            "Zahra Najafabadi-Samani"
         ]
     },
     {
         "title": "Tunable and Portable Extreme-Scale Drug Discovery Platform at Exascale: the LIGATE Approach",
         "year": 2023,
-        "citations": 6,
+        "citations": 7,
         "link": "https://doi.org/10.1145/3587135.3592172",
         "venue": "ACM International Conference on Computing Frontiers (CF)",
         "open_access": true,
@@ -1543,6 +1526,22 @@
         ]
     },
     {
+        "title": "High-resolution simulations of LS 5039",
+        "year": 2023,
+        "citations": 7,
+        "link": "https://doi.org/10.1051/0004-6361/202345934",
+        "venue": "Astronomy and Astrophysics",
+        "open_access": true,
+        "all_authors": [
+            "R. Kissmann",
+            "David Huber",
+            "Philipp Gschwandtner"
+        ],
+        "group_authors": [
+            "Philipp Gschwandtner"
+        ]
+    },
+    {
         "title": "SDKV: A Smart and Distributed Key-Value Store for the Edge-Cloud Continuum",
         "year": 2023,
         "citations": 5,
@@ -1566,7 +1565,7 @@
     {
         "title": "Proactive SLA-aware Application Placement in the Computing Continuum",
         "year": 2023,
-        "citations": 3,
+        "citations": 5,
         "link": "https://doi.org/10.1109/ipdps54959.2023.00054",
         "venue": "IEEE International Parallel and Distributed Processing Symposium (IPDPS)",
         "open_access": false,
@@ -1583,7 +1582,7 @@
     {
         "title": "Domain-Specific Energy Modeling for Drug Discovery and Magnetohydrodynamics Applications",
         "year": 2023,
-        "citations": 2,
+        "citations": 4,
         "link": "https://doi.org/10.1145/3624062.3624261",
         "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
         "open_access": true,
@@ -1631,7 +1630,7 @@
     {
         "title": "FaaScinating Resilience for Serverless Function Choreographies in Federated Clouds",
         "year": 2022,
-        "citations": 21,
+        "citations": 24,
         "link": "https://doi.org/10.1109/tnsm.2022.3162036",
         "venue": "IEEE Transactions on Network and Service Management",
         "open_access": true,
@@ -1647,7 +1646,7 @@
     {
         "title": "M2FaaS: Transparent and fault tolerant FaaSification of Node.js monolith code blocks",
         "year": 2022,
-        "citations": 15,
+        "citations": 16,
         "link": "https://doi.org/10.1016/j.future.2022.04.021",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -1664,7 +1663,7 @@
     {
         "title": "Approximate reinforcement learning to control beaconing congestion in distributed networks",
         "year": 2022,
-        "citations": 15,
+        "citations": 16,
         "link": "https://doi.org/10.1038/s41598-021-04123-9",
         "venue": "Scientific Reports",
         "open_access": true,
@@ -1696,6 +1695,23 @@
         ]
     },
     {
+        "title": "Declarative Data Flow in a Graph-Based Distributed Memory Runtime System",
+        "year": 2022,
+        "citations": 8,
+        "link": "https://doi.org/10.1007/s10766-022-00743-4",
+        "venue": "International Journal of Parallel Programming",
+        "open_access": true,
+        "all_authors": [
+            "Fabian Knorr",
+            "Peter Thoman",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman"
+        ]
+    },
+    {
         "title": "The Celerity High-level API: C++20 for Accelerator Clusters",
         "year": 2022,
         "citations": 7,
@@ -1715,29 +1731,12 @@
         ]
     },
     {
-        "title": "Declarative Data Flow in a Graph-Based Distributed Memory Runtime System",
-        "year": 2022,
-        "citations": 6,
-        "link": "https://doi.org/10.1007/s10766-022-00743-4",
-        "venue": "International Journal of Parallel Programming",
-        "open_access": true,
-        "all_authors": [
-            "Fabian Knorr",
-            "Peter Thoman",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman"
-        ]
-    },
-    {
         "title": "Celerity: How (Well) Does the SYCL API Translate to Distributed Clusters?",
         "year": 2022,
-        "citations": 2,
+        "citations": 3,
         "link": "https://doi.org/10.1145/3529538.3530004",
         "venue": "International Workshop on OpenCL",
-        "open_access": false,
+        "open_access": true,
         "all_authors": [
             "Philip Salzmann",
             "Fabian Knorr",
@@ -1784,9 +1783,9 @@
     {
         "title": "A Community Roadmap for Scientific Workflows Research and Development",
         "year": 2021,
-        "citations": 60,
+        "citations": 82,
         "link": "https://doi.org/10.1109/works54523.2021.00016",
-        "venue": "Research Explorer (The University of Manchester)",
+        "venue": "UvA-DARE (University of Amsterdam)",
         "open_access": true,
         "all_authors": [
             "Rafael Ferreira da Silva",
@@ -1826,7 +1825,7 @@
     {
         "title": "ndzip-gpu: efficient lossless compression of scientific floating-point data on GPUs",
         "year": 2021,
-        "citations": 34,
+        "citations": 48,
         "link": "https://doi.org/10.1145/3458817.3476224",
         "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
         "open_access": true,
@@ -1843,7 +1842,7 @@
     {
         "title": "ndzip: A High-Throughput Parallel Lossless Compressor for Scientific Data",
         "year": 2021,
-        "citations": 34,
+        "citations": 40,
         "link": "https://doi.org/10.1109/dcc50243.2021.00018",
         "venue": "DCC",
         "open_access": false,
@@ -1858,26 +1857,9 @@
         ]
     },
     {
-        "title": "xAFCL: Run Scalable Function Choreographies Across Multiple FaaS Systems",
-        "year": 2021,
-        "citations": 30,
-        "link": "https://doi.org/10.1109/tsc.2021.3128137",
-        "venue": "IEEE Transactions on Services Computing",
-        "open_access": false,
-        "all_authors": [
-            "Sasko Ristov",
-            "Stefan Pedratscher",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Stefan Pedratscher"
-        ]
-    },
-    {
         "title": "Workflows Community Summit: Bringing the Scientific Workflows Community Together",
         "year": 2021,
-        "citations": 28,
+        "citations": 34,
         "link": "https://doi.org/10.48550/arxiv.2103.09181",
         "venue": "arXiv (Cornell University)",
         "open_access": true,
@@ -1930,6 +1912,23 @@
         ],
         "group_authors": [
             "Thomas Fahringer"
+        ]
+    },
+    {
+        "title": "xAFCL: Run Scalable Function Choreographies Across Multiple FaaS Systems",
+        "year": 2021,
+        "citations": 33,
+        "link": "https://doi.org/10.1109/tsc.2021.3128137",
+        "venue": "IEEE Transactions on Services Computing",
+        "open_access": false,
+        "all_authors": [
+            "Sasko Ristov",
+            "Stefan Pedratscher",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Stefan Pedratscher"
         ]
     },
     {
@@ -2004,26 +2003,9 @@
         ]
     },
     {
-        "title": "Sylkan: Towards a Vulkan Compute Target Platform for SYCL",
-        "year": 2021,
-        "citations": 15,
-        "link": "https://doi.org/10.1145/3456669.3456683",
-        "venue": "International Workshop on OpenCL",
-        "open_access": true,
-        "all_authors": [
-            "Peter Thoman",
-            "Daniel Gogl",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman"
-        ]
-    },
-    {
         "title": "Apollo: towards an efficient distributed orchestration of serverless function compositions in the cloud-edge continuum",
         "year": 2021,
-        "citations": 12,
+        "citations": 16,
         "link": "https://doi.org/10.1145/3468737.3494103",
         "venue": "IEEE/ACM International Conference on Utility and Cloud Computing (UCC)",
         "open_access": false,
@@ -2039,9 +2021,26 @@
         ]
     },
     {
+        "title": "Sylkan: Towards a Vulkan Compute Target Platform for SYCL",
+        "year": 2021,
+        "citations": 16,
+        "link": "https://doi.org/10.1145/3456669.3456683",
+        "venue": "International Workshop on OpenCL",
+        "open_access": true,
+        "all_authors": [
+            "Peter Thoman",
+            "Daniel Gogl",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman"
+        ]
+    },
+    {
         "title": "Multi‐GPU room response simulation with hardware raytracing",
         "year": 2021,
-        "citations": 7,
+        "citations": 10,
         "link": "https://doi.org/10.1002/cpe.6663",
         "venue": "Concurrency and Computation Practice and Experience",
         "open_access": true,
@@ -2061,7 +2060,7 @@
     {
         "title": "The cluster coffer: Teaching HPC on the road",
         "year": 2021,
-        "citations": 5,
+        "citations": 6,
         "link": "https://doi.org/10.1016/j.jpdc.2021.04.013",
         "venue": "Journal of Parallel and Distributed Computing",
         "open_access": true,
@@ -2082,7 +2081,7 @@
     {
         "title": "Porting Real-World Applications to GPU Clusters: A Celerity and Cronos Case Study",
         "year": 2021,
-        "citations": 3,
+        "citations": 5,
         "link": "https://doi.org/10.1109/escience51609.2021.00019",
         "venue": "IEEE International Conference on eScience",
         "open_access": false,
@@ -2104,7 +2103,7 @@
     {
         "title": "Optimizing Embedded Industrial Safety Systems Based on Time-of-flight Depth Imaging",
         "year": 2021,
-        "citations": 2,
+        "citations": 3,
         "link": "https://doi.org/10.1109/escience51609.2021.00048",
         "venue": "IEEE International Conference on eScience",
         "open_access": false,
@@ -2121,7 +2120,7 @@
     {
         "title": "AFCL: An Abstract Function Choreography Language for serverless workflow specification",
         "year": 2020,
-        "citations": 54,
+        "citations": 62,
         "link": "https://doi.org/10.1016/j.future.2020.08.012",
         "venue": "Future Generation Computer Systems",
         "open_access": true,
@@ -2138,7 +2137,7 @@
     {
         "title": "Evolutionary Multi-Objective Workflow Scheduling for Volatile Resources in the Cloud",
         "year": 2020,
-        "citations": 50,
+        "citations": 56,
         "link": "https://doi.org/10.1109/tcc.2020.2993250",
         "venue": "IEEE Transactions on Cloud Computing",
         "open_access": true,
@@ -2153,7 +2152,7 @@
     {
         "title": "SYCL-Bench: A Versatile Cross-Platform Benchmark Suite for Heterogeneous Computing",
         "year": 2020,
-        "citations": 26,
+        "citations": 33,
         "link": "https://doi.org/10.1007/978-3-030-57675-2_39",
         "venue": "Lecture notes in computer science",
         "open_access": true,
@@ -2176,7 +2175,7 @@
     {
         "title": "DAF: Dependency-Aware FaaSifier for Node.js Monolithic Applications",
         "year": 2020,
-        "citations": 19,
+        "citations": 22,
         "link": "https://doi.org/10.1109/ms.2020.3018334",
         "venue": "IEEE Software",
         "open_access": false,
@@ -2194,7 +2193,7 @@
     {
         "title": "Simplified Workflow Simulation on Clouds based on Computation and Communication Noisiness",
         "year": 2020,
-        "citations": 14,
+        "citations": 15,
         "link": "https://doi.org/10.1109/tpds.2020.2967662",
         "venue": "IEEE Transactions on Parallel and Distributed Systems",
         "open_access": true,
@@ -2206,6 +2205,24 @@
         ],
         "group_authors": [
             "Thomas Fahringer"
+        ]
+    },
+    {
+        "title": "RTX-RSim: Accelerated Vulkan Room Response Simulation for Time-of-Flight Imaging",
+        "year": 2020,
+        "citations": 15,
+        "link": "https://doi.org/10.1145/3388333.3388662",
+        "venue": "International Workshop on OpenCL",
+        "open_access": false,
+        "all_authors": [
+            "Peter Thoman",
+            "Markus Wippler",
+            "Robert Hranitzky",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman"
         ]
     },
     {
@@ -2224,24 +2241,6 @@
             "Peter Thoman",
             "Thomas Fahringer",
             "Vincent Heuveline"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman"
-        ]
-    },
-    {
-        "title": "RTX-RSim: Accelerated Vulkan Room Response Simulation for Time-of-Flight Imaging",
-        "year": 2020,
-        "citations": 11,
-        "link": "https://doi.org/10.1145/3388333.3388662",
-        "venue": "International Workshop on OpenCL",
-        "open_access": false,
-        "all_authors": [
-            "Peter Thoman",
-            "Markus Wippler",
-            "Robert Hranitzky",
-            "Thomas Fahringer"
         ],
         "group_authors": [
             "Thomas Fahringer",
@@ -2268,26 +2267,9 @@
         ]
     },
     {
-        "title": "Datasets for Benchmarking Floating-Point Compressors",
-        "year": 2020,
-        "citations": 5,
-        "link": "https://doi.org/10.48550/arxiv.2011.02849",
-        "venue": "arXiv (Cornell University)",
-        "open_access": true,
-        "all_authors": [
-            "Fabian Knorr",
-            "Peter Thoman",
-            "Thomas Fahringer"
-        ],
-        "group_authors": [
-            "Thomas Fahringer",
-            "Peter Thoman"
-        ]
-    },
-    {
         "title": "Emergency Networks for Post-Disaster Scenarios",
         "year": 2020,
-        "citations": 4,
+        "citations": 6,
         "link": "https://doi.org/10.1007/978-3-030-44685-7_11",
         "venue": "Computer communications and networks",
         "open_access": true,
@@ -2306,9 +2288,26 @@
         ]
     },
     {
+        "title": "Datasets for Benchmarking Floating-Point Compressors",
+        "year": 2020,
+        "citations": 6,
+        "link": "https://doi.org/10.48550/arxiv.2011.02849",
+        "venue": "arXiv (Cornell University)",
+        "open_access": true,
+        "all_authors": [
+            "Fabian Knorr",
+            "Peter Thoman",
+            "Thomas Fahringer"
+        ],
+        "group_authors": [
+            "Thomas Fahringer",
+            "Peter Thoman"
+        ]
+    },
+    {
         "title": "Apollo: Modular and Distributed Runtime System for Serverless Function Compositions on Cloud, Edge, and IoT Resources",
         "year": 2020,
-        "citations": 4,
+        "citations": 5,
         "link": "https://doi.org/10.1145/3452413.3464793",
         "venue": "Proceedings of the 1st Workshop on High Performance Serverless Computing",
         "open_access": false,
@@ -2324,7 +2323,7 @@
     {
         "title": "Running on Raygun",
         "year": 2020,
-        "citations": 2,
+        "citations": 3,
         "link": "https://doi.org/10.48550/arxiv.2001.09792",
         "venue": "arXiv (Cornell University)",
         "open_access": true,
@@ -2339,7 +2338,7 @@
     {
         "title": "The allscale framework architecture",
         "year": 2020,
-        "citations": 1,
+        "citations": 2,
         "link": "https://doi.org/10.1016/j.parco.2020.102648",
         "venue": "Parallel Computing",
         "open_access": false,
